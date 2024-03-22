@@ -6,6 +6,7 @@ import Footer from "@/components/Footer/Footer";
 import Jaizmora from "@/components/Jaizmora/Jaizmora";
 import Hero from "@/components/Hero/Hero";
 import Acerca from "@/components/Acerca/Acerca";
+import Quienes from "@/components/Quienes/Quienes";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function Home() {
         <main className="w-full h-full bg-[#000206] relative">
       <Hero/>
       <Acerca/>
+      <Quienes/>
       <Footer/>
       <Jaizmora/>
     
