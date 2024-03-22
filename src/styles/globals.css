@@ -25,6 +25,13 @@
   -webkit-text-fill-color: transparent;
 
 }
+.titulo5{
+  background: linear-gradient(90deg, #1777BA 0%, #8FAFF1 61.09%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 
 body {
   background-color: #000206;

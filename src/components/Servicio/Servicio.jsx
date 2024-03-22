@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
+import Mapa from './Mapa'
 
 function Servicio() {
   return (
-    <div className='text-white w-full h-full flex flex-col'>
+    <div className='text-white w-full h-full flex flex-col gap-[30px]'>
       <div className='w-full h-full flex flex-row justify-center px-4 '>
         <div className='flex flex-col justify-end relative '>
           <Image src="/assets/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-full h-[126px]' />
@@ -32,6 +33,7 @@ function Servicio() {
         </div>
 
       </div>
+      <Mapa/>
     </div>
   )
 }
