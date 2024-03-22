@@ -24,7 +24,7 @@ function Quienes() {
             alt="Helicoptero"
             width={1000}
             height={1000}
-            className="-z-10  w-full h-full"
+            className="-z-10  w-full h-full object-cover"
           />
         </div>
       </div>
