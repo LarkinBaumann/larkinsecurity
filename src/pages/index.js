@@ -7,6 +7,7 @@ import Jaizmora from "@/components/Jaizmora/Jaizmora";
 import Hero from "@/components/Hero/Hero";
 import Acerca from "@/components/Acerca/Acerca";
 import Quienes from "@/components/Quienes/Quienes";
+import Servicio from "@/components/Servicio/Servicio";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function Home() {
       <Hero/>
       <Acerca/>
       <Quienes/>
+      <Servicio/>
       <Footer/>
       <Jaizmora/>
     
