@@ -1,0 +1,108 @@
+{
+    "hero": {
+      "titulos": [
+        "私人",
+        "房地產",
+        "投資與",
+        "石油與天然氣",
+        "黃金與"
+      ],
+      "titulos2": [
+        "保安",
+        "地產",
+        "金融",
+        "工業",
+        "礦業"
+      ],
+      "descripcion": [
+        "我們提供技術和定制服務來保護您最寶貴的資產，從監控系統到快速反應協議，確保您的安心與保護。",
+        "探索擁有尖端技術的房地產。我們提供獨特的體驗，相信我們的專業知識，進行高效和有效的房地產搜索。",
+        "通過我們的專家財務管理提升您的投資。信任我們的團隊優化您的投資組合，確保穩固的財務未來。",
+        "發現我們在石油和天然氣行業的領先公司如何為您的項目提供全面解決方案。我們提供針對您需求的卓越結果。",
+        "從購買到銷售，我們透明高效地管理整個過程，確保最高的品質和合規標準。"
+      ]
+    },
+    "acerca": {
+      "titulo1": "25",
+      "complemento1": "+",
+      "descripcion1": "年的經驗",
+      "titulo2": "5",
+      "complemento2": "千+",
+      "descripcion2": "滿意的客戶",
+      "titulo3": "50",
+      "complemento3": "+",
+      "descripcion3": "認證",
+      "titulo4": "200",
+      "complemento4": "+",
+      "descripcion4": "合作",
+      "header": "賦能多元化企業，",
+      "accent": "匯聚成功。",
+      "paragraph": "我們是一家多元化的公司，涵蓋房地產、私人保安、石油和天然氣、投資和財務管理等關鍵行業。通過整合方法和對卓越的承諾，我們推動每家公司的成功。我們的團隊充滿激情和專業，始終致力於創新和品質。"
+    },
+    "servicio": {
+      "header": "您在墨西哥的夥伴：",
+      "accent": "全國服務",
+      "paragraph": "覆蓋墨西哥共和國，我們的團隊隨時準備滿足您的需求。信賴我們在全國提供可靠和高質量的解決方案。"
+    },
+    "contacto": {
+      "header": "今天就開始您的旅程。",
+      "accent": "聯絡我們。",
+      "paragraph": "在我們團隊中，我們在這裡幫助您邁出實現目標的第一步。我們為您提供開啟這激動人心成功之路所需的推動力。",
+      "titulo": "電子郵件",
+      "titulo2": "電話",
+      "titulo3": "地點",
+      "titulo4": "微博",
+      "titulo5": "微信"
+    },
+    "navbar": {
+      "link1": "關於我們",
+      "link2": "公司",
+      "link3": "覆蓋範圍"
+    },
+    "contactoNavbar": {
+      "titulo": "聯絡"
+    },
+    "footer": {
+      "titulo1": "地址",
+      "titulo2": "聯絡"
+    },
+    "empresas": [
+      {
+        "id": 1,
+        "nombre": "私人保安",
+        "imagen": "/images/EMPRESAS/seguridad.webp",
+        "url": "LarkinBaumanSecurity.com",
+        "descripcion": "定制保護、專家護送和先進解決方案，為您的安心提供支持"
+      },
+      {
+        "id": 2,
+        "nombre": "房地產",
+        "url": "LarkinBaumanRealEstate.com",
+        "imagen": "/images/EMPRESAS/realestate.webp",
+        "descripcion": "擁有個性化關注和廣泛市場知識的物業搜索和獲取的獨特體驗。"
+      },
+      {
+        "id": 3,
+        "nombre": "石油與天然氣工業",
+        "imagen": "/images/EMPRESAS/oil.webp",
+        "url": "LarkinBaumanOilGas.com",
+        "descripcion": "與我們一起在石油和天然氣行業提升您的成功。我們有最低市場價格的ESPO和柴油EN590 10PP。"
+      },
+      {
+        "id": 4,
+        "nombre": "投資與金融",
+        "imagen": "/images/EMPRESAS/investment.webp",
+        "url": "LarkinBaumanInvestments.com",
+        "descripcion": "與我們一起實現您的財務目標。我們最大化您的增長和成功機會。"
+      },
+      {
+        "id": 5,
+        "nombre": "黃金礦業",
+        "imagen": "/images/EMPRESAS/gold.webp",
+        "url": "LarkinBaumanGoldMining.com",
+        "descripcion": "獲取貴重礦物並在我們的高科技精煉廠進行加工。"
+      }
+    ],
+    "empresaBoton": "前往網站"
+  }
+  

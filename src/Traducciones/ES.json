@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "titulos": [
+      "Private",
+      "Real",
+      "Investments &",
+      "Oil & Gas",
+      "Gold &"
+    ],
+    "titulos2": [
+      "Security",
+      "Estate",
+      "Finances",
+      "Industry",
+      "Mining"
+    ],
+    "descripcion": [
+  
+      "Proporcionamos tecnología y servicios personalizados para proteger tus activos más valiosos, desde sistemas de vigilancia hasta protocolos de respuesta rápida, asegurando tu tranquilidad y protección en cada paso.",
+      "Explora propiedades inmobiliarias con tecnología de vanguardia. Te ofrecemos una experiencia única, confía en nuestra experiencia  para una búsqueda inmobiliaria eficiente y efectiva.",
+      "Potencia tus inversiones con nuestra gestión financiera experta. Confía en nuestro equipo para optimizar tu cartera y asegurar un futuro financiero sólido.",
+      "Descubre cómo nuestra empresa líder en la industria de petróleo y gas ofrece soluciones integrales para tus proyectos. Ofrecemos resultados excepcionales adaptados a tus necesidades.",
+      "Desde la compra hasta la venta, gestionamos todo el proceso con transparencia y eficiencia, asegurando los más altos estándares de calidad y cumplimiento."
+    ]
+  },
+  "acerca": {
+    "titulo1": "25",
+    "complemento1":"+",
+    "descripcion1": "Años de experiencia",
+    "titulo2": "5",
+    "complemento2":"K+",
+    "descripcion2": "Clientes satisfechos",
+    "titulo3": "50",
+    "complemento3":"+",
+    "descripcion3": "Certificaciones",
+    "titulo4": "200",
+    "complemento4":"+",
+    "descripcion4": "Colaboraciones ",
+    "header": "Potenciando Diversas Empresas,",
+    "accent": "Uniendo Éxitos.",
+    "paragraph": "Somos un corporativo diversificado, abarcando industrias clave como bienes raíces, seguridad privada, petróleo y gas, inversiones y gestión financiera. Con enfoque integrador y compromiso con la excelencia, impulsamos el éxito de cada una de nuestras empresas. Nuestro equipo apasionado y profesional se dedica a la innovación y calidad en todo momento."
+  },
+  "servicio": {
+    "header": "Tus Socios en Todo México:",
+    "accent": "Servicios a lo Largo y Ancho del País",
+    "paragraph": "Cobertura en toda la República Mexicana, nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país."
+  },
+  "contacto": {
+    "header": "Inicia tu camino, hoy mismo.",
+    "accent": "Contáctanos.",
+    "paragraph": "En nuestro equipo, estamos aquí para ayudarte a dar el primer paso hacia tus metas. Te ofrecemos el impulso que necesitas para iniciar este emocionante camino hacia el éxito.",
+    "titulo": "E-mail",
+    "titulo2": "Teléfono",
+    "titulo3": "Ubicación",
+    "titulo4": "Weibo",
+    "titulo5": "Wechat"
+  },
+  "navbar": {
+    "link1": "Nosotros",
+    "link2": "Empresas",
+    "link3": "Cobertura"
+  },
+  "contactoNavbar": {
+    "titulo":"Contacto"
+  },
+  "footer": {
+    "titulo1": "Dirección",
+    "titulo2": "Contacto"
+  },
+  "empresas": [
+    {
+      "id": 1,
+      "nombre": "Seguridad privada",
+      "imagen": "/images/EMPRESAS/seguridad.webp",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "Protección personalizada, escoltas expertos y soluciones avanzadas para tu tranquilidad"
+    },
+    {
+      "id": 2,
+      "nombre": "Real Estate",
+      "url": "LarkinBaumanSeguridad.com",
+      "imagen": "/images/EMPRESAS/realestate.webp",
+      "descripcion": "Experiencia única en búsqueda y adquisición de propiedades con enfoque personalizado y amplio conocimiento del mercado."
+    },
+    {
+      "id": 3,
+      "nombre": "OIL & GAS INDUSTRY",
+      "imagen": "/images/EMPRESAS/oil.webp",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "Potencia tu éxito en la industria del petróleo y gas con nosotros. Contamos con ESPO y Diésel EN590 10PP con los precios más bajos del mercado."
+    },
+    {
+      "id": 4,
+      "nombre": "INVESTMENTS & FINANCES",
+      "imagen": "/images/EMPRESAS/investment.webp",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "Alcanza tus metas financieras con nosotros. Maximizamos tus oportunidades de crecimiento y éxito."
+    },
+    {
+      "id": 5,
+      "nombre": "GOLD MINING",
+      "imagen": "/images/EMPRESAS/gold.webp",
+      "url": "LarkinBaumanSeguridad.com",
+      "descripcion": "Adquisición de minerales preciosos y su procesamiento en nuestras refinadoras de alta tecnología."
+    }
+  ],
+  "empresaBoton": "Ir a sitio web"
+}
+  
