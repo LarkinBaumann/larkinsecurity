@@ -7,7 +7,7 @@ import Jaizmora from "@/components/Jaizmora/Jaizmora";
 import Hero from "@/components/Home/Hero/Hero";
 import Acerca from "@/components/Home/Acerca/Acerca";
 import Quienes from "@/components/Home/Quienes/Quienes";
-import Servicio from "@/components/Servicio/Servicio";
+import Servicio from "@/components/Home/Servicio/Servicio";
 import Contacto from "@/components/Home/Contacto/Contacto";
 
 const inter = Inter({ subsets: ["latin"] });
