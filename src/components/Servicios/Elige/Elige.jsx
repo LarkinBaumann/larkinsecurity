@@ -5,7 +5,7 @@ import ShadowBottom from './Shadows/ShadowBottom'
 
 function Elige() {
   return (
-    <div className='w-full h-[700px] flex flex-col items-center justify-center text-white px-4 relative overflow-hidden '>
+    <div className='w-full h-[700px] flex flex-col items-center justify-center text-white px-4 relative '>
       <ShadowTop/>
       <ShadowBottom/>
       <Image src="/assets/servicios/elige.png" layout='fill' objectFit='cover' alt="Hero Servicios" className='absolute bottom-0 -z-10'/>
