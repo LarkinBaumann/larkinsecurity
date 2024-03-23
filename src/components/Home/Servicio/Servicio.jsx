@@ -11,7 +11,7 @@ function Servicio() {
       <ShadowTop/>
       <div className='w-full h-full flex flex-row justify-center px-4 '>
         <div className='h-[250px] flex flex-col justify-end relative '>
-          <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-full h-[126px]' />
+          <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] h-[126px]' />
           <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>Visión global</p>
           <p className='font-light'>e innovación</p>
@@ -19,7 +19,7 @@ function Servicio() {
         </div>
         <div className='h-full flex flex-col justify-start relative z-10'>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000}
-          className='w-full h-[197px]'
+          className='w-[182px] h-[197px]'
           />
           <div className='flex flex-col text-center w-full absolute top-[35%] text-[14px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>Compromiso con</p>
@@ -28,7 +28,7 @@ function Servicio() {
         </div>
         <div className=' flex flex-col justify-end relative'>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} 
-          className='w-full h-[126px]'
+          className='w-[123px] h-[126px]'
           />
            <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>Integridad y</p>
