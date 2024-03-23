@@ -13,7 +13,22 @@ function AcercaDe() {
       <Button
       text={"Servicios"}
       />
-      <Image src="/assets/acerca/acercade/bmw.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full" />
+      <Image src="/assets/acerca/acercade/bmw.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full flex flex-col " />
+      <div className="">
+        <h2 className="font-header text-[25px] font-black">Misión</h2>
+        <p className="text-[11px] font-black leading-[19px] font-paragraph w-[225px]">
+        En Larkin Baumann, buscamos satisfacer las necesidades de nuestros clientes, ofreciendo soluciones de seguridad personalizadas que se adaptan a sus requerimientos específicos con servicios de alta calidad, integridad y confidencialidad. 
+        </p>
+      </div>
+      <div className="text-right">
+        <h2 className="font-header text-[25px] font-black">Visión</h2>
+        <p className="text-[11px] font-black leading-[19px] font-paragraph w-[225px]">
+        Buscamos ser líderes de las compañías de servicios de seguridad privada, con la mayor rentabilidad sostenida donde los mejores aspiren a trabajar, además de ser reconocidos como el estándar de excelencia en la industria de servicios de seguridad privada.
+        </p>
+      </div>
+      <div className="w-[220px] h-[220px]">
+        <Image src="/assets/acerca/acercade/escoltas.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full " />
+      </div>
     </div>
   );
 }
