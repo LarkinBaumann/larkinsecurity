@@ -40,7 +40,7 @@ function Servicio() {
       <div className='w-full z-20 relative'>
        
         <ShadowMapa/>
-        <Image src="/assets/home/servicios/fondo.png" alt="Escudo" width={1000} height={1000} className='w-full h-[570px] absolute -z-10' />
+        <Image src="/assets/home/servicios/fondo.png" alt="Escudo" width={1000} height={1000} className='w-full h-[570px] absolute -z-20' />
 
       <Mapa/>
       </div>

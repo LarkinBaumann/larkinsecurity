@@ -6,7 +6,7 @@ function Mapa() {
     <div className='w-full h-full px-4'>
 
     <div className='w-full h-[502px] flex flex-col justify-center items-center text-center rounded-[22px] border-[2px] border-[#1777BA] bg-[#07141C]
-    gap-[15px]
+    gap-[15px] 
     '>
         <div className='w-[90%]  flex flex-col items '>
         <h2 className='font-header text-[22px] font-extrabold leading-[25px] '>

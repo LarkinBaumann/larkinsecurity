@@ -3,7 +3,7 @@ import React from 'react'
 function ShadowBottom() {
   return (
     <div className='absolute top-0 -z-10'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="428" height="845" viewBox="0 0 428 845" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="428" height="645" viewBox="0 0 428 845" fill="none">
   <g filter="url(#filter0_f_415_713)">
     <path d="M550.172 295.815C487.348 160.929 220.227 223.97 94.5203 272.351C-261.053 647.083 133.217 655.998 374.798 613.615C459.433 563.884 612.996 430.701 550.172 295.815Z" fill="url(#paint0_linear_415_713)"/>
     <path d="M550.172 295.815C487.348 160.929 220.227 223.97 94.5203 272.351C-261.053 647.083 133.217 655.998 374.798 613.615C459.433 563.884 612.996 430.701 550.172 295.815Z" stroke="black" stroke-width="0.426841"/>
