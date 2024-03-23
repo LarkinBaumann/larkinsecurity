@@ -55,6 +55,29 @@
 
 }
 
+
+/* Servicios */
+.tituloServicios1{
+  background: linear-gradient(90deg, #1777BA 28.27%, #8EC8F8 48.42%, #132151 83.97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.tituloServicios2{
+  background: linear-gradient(90deg, #1777BA 0%, #A2B3EE 59.34%, #FFF 83.97%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.tituloServicios3{
+  background: linear-gradient(90deg, #1777BA 0%, #A2B3EE 59.34%, #FFF 83.97%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
 body {
   background-color: #000206;
 }
