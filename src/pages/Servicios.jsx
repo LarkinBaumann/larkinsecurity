@@ -6,7 +6,7 @@ import React from 'react'
 
 function Servicios() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Hero/>
       <div className='w-full h-full relative'>
 
