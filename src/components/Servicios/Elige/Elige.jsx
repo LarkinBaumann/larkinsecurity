@@ -11,11 +11,11 @@ function Elige() {
       <Image src="/assets/servicios/elige.png" layout='fill' objectFit='cover' alt="Hero Servicios" className='absolute bottom-0 -z-10'/>
         <div className='w-full h-[524px] flex flex-col items-center justify-center border-[1px] border-[#1777BA] rounded-[12px] gap-[38px] z-10 '>
             <div className='w-full  flex flex-col items-center justify-center relative'>
-                <Image src="/assets/servicios/1.png" width={100}
+                <Image src="/assets/servicios/elige/1.png" width={100}
                 height={100} alt="Elige Servicios" className='w-[72px] h-[72px] absolute bottom-0 left-[20%]'/>
-                <Image src="/assets/servicios/2.png" width={100}
+                <Image src="/assets/servicios/elige/2.png" width={100}
                 height={100} alt="Elige Servicios" className='w-[218px] h-[218px]'/>
-                <Image src="/assets/servicios/3.png" width={100}
+                <Image src="/assets/servicios/elige/3.png" width={100}
                 height={100} alt="Elige Servicios" className='w-[104px] h-[104px] absolute top-0 right-[15%]'/>
             </div>
             <div className='flex flex-col gap-[10px]'>
