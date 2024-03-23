@@ -4,11 +4,11 @@ import Head from "next/head";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import Jaizmora from "@/components/Jaizmora/Jaizmora";
-import Hero from "@/components/Hero/Hero";
-import Acerca from "@/components/Acerca/Acerca";
-import Quienes from "@/components/Quienes/Quienes";
+import Hero from "@/components/Home/Hero/Hero";
+import Acerca from "@/components/Home/Acerca/Acerca";
+import Quienes from "@/components/Home/Quienes/Quienes";
 import Servicio from "@/components/Servicio/Servicio";
-import Contacto from "@/components/Contacto/Contacto";
+import Contacto from "@/components/Home/Contacto/Contacto";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,8 +34,6 @@ export default function Home() {
       <Quienes/>
       <Servicio/>
       <Contacto/>
-      <Footer/>
-      <Jaizmora/>
     
     </main>
     </>

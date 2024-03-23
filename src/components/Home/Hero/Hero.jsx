@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React, { useContext } from 'react'
 import { AppContext } from '@/Context/AppContext'
 import {motion} from 'framer-motion'
-import ShadowAcercaSm2 from '../Shadows/ShadowAcercaSm2'
+import ShadowAcercaSm2 from '../../Shadows/ShadowAcercaSm2'
 import { useMediaQuery } from 'react-responsive';
 
 

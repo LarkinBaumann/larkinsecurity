@@ -229,7 +229,7 @@ function Navbar({}) {
       <div className="w-full h-full flex flex-col relative ">
         {showMenu && (
           <Image
-            src="/images/Servicios/ShadowSm.png"
+            src="/assets/ShadowSm.png"
             width={5000}
             height={5000}
             alt="fondo-empresas"
