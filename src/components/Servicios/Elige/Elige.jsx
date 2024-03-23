@@ -1,10 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
+import ShadowTop from './Shadows/ShadowTop'
+import ShadowBottom from './Shadows/ShadowBottom'
 
 function Elige() {
   return (
-    <div className='w-full h-full flex flex-col items-center justify-center text-white px-4'>
-        <div className='w-full h-[524px] flex flex-col items-center justify-center border-[1px] border-[#1777BA] rounded-[12px] gap-[38px] '>
+    <div className='w-full h-[700px] flex flex-col items-center justify-center text-white px-4 relative overflow-hidden '>
+      <ShadowTop/>
+      <ShadowBottom/>
+      <Image src="/assets/servicios/elige.png" layout='fill' objectFit='cover' alt="Hero Servicios" className='absolute bottom-0 -z-10'/>
+        <div className='w-full h-[524px] flex flex-col items-center justify-center border-[1px] border-[#1777BA] rounded-[12px] gap-[38px] z-10 '>
             <div className='w-full  flex flex-col items-center justify-center relative'>
                 <Image src="/assets/servicios/1.png" width={100}
                 height={100} alt="Elige Servicios" className='w-[72px] h-[72px] absolute bottom-0 left-[20%]'/>
