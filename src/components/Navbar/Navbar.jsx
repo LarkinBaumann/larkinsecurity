@@ -422,7 +422,7 @@ function Navbar({}) {
                 <span
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
-                    router.push("/Inicio")
+                    router.push("/")
                       setShowMenu(false);
                   }}
                 >

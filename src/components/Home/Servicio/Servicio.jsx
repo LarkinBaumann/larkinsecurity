@@ -7,14 +7,14 @@ function Servicio() {
     <div className='text-white w-full h-full flex flex-col gap-[30px]'>
       <div className='w-full h-full flex flex-row justify-center px-4 '>
         <div className='flex flex-col justify-end relative '>
-          <Image src="/assets/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-full h-[126px]' />
+          <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-full h-[126px]' />
           <div className='flex flex-col text-center w-full absolute top-[56%] text-[12px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>Visión global</p>
           <p className='font-light'>e innovación</p>
           </div>
         </div>
         <div className='h-full flex flex-col justify-start relative'>
-          <Image src="/assets/servicio/escudo1.png" alt="Escudo" width={1000} height={1000}
+          <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000}
           className='w-full h-[197px]'
           />
           <div className='flex flex-col text-center w-full absolute top-[35%] text-[14px] font-paragraph leading-[15px]'>
@@ -23,7 +23,7 @@ function Servicio() {
           </div>
         </div>
         <div className=' flex flex-col justify-end relative'>
-          <Image src="/assets/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} 
+          <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} 
           className='w-full h-[126px]'
           />
            <div className='flex flex-col text-center w-full absolute top-[56%] text-[12px] font-paragraph leading-[15px]'>

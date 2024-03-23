@@ -11,7 +11,7 @@ function Quienes() {
       <div className="w-full h-full flex flex-col justify-between absolute ">
         <div className="w-full h-[40%] z-0">
           <Image
-            src="/assets/quienes/escoltas.png"
+            src="/assets/home/quienes/escoltas.png"
             width={1000}
             height={1000}
             alt="Escoltas"
@@ -20,7 +20,7 @@ function Quienes() {
         </div>
         <div className="w-full h-[40%] z-0">
           <Image
-            src="/assets/quienes/helicoptero.png"
+            src="/assets/home/quienes/helicoptero.png"
             alt="Helicoptero"
             width={1000}
             height={1000}
