@@ -2,11 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import Mapa from './Mapa'
 import ShadowTop from './Shadows/ShadowTop'
+import ShadowMapa from './Shadows/ShadowMapa'
 
 function Servicio() {
   return (
     <div className='text-white w-full h-full flex flex-col gap-[30px] relative'>
-      <Image src="/assets/home/servicio/fondo.png"  width={1000} height={1000} className='w-full h-[350px] absolute' alt='fondo servicio'/>
+      <Image src="/assets/home/servicio/fondo.png"  width={1000} height={1000} className='w-full h-[350px] absolute ' alt='fondo servicio'/>
       <ShadowTop/>
       <div className='w-full h-full flex flex-row justify-center px-4 '>
         <div className='h-[250px] flex flex-col justify-end relative '>
@@ -36,7 +37,9 @@ function Servicio() {
         </div>
 
       </div>
-      <div className='w-full z-10 relative'>
+      <div className='w-full z-20 relative'>
+       
+        <ShadowMapa/>
         <Image src="/assets/home/servicios/fondo.png" alt="Escudo" width={1000} height={1000} className='w-full h-[570px] absolute -z-10' />
 
       <Mapa/>

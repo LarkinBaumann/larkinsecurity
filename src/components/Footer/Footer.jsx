@@ -49,7 +49,7 @@ function Footer() {
   return (
     <motion.div 
     ref={ref}
-    className="w-full h-full relative z-10 bg-[#0e192170]"
+    className="w-full h-full relative z-20 bg-[#0e192170]"
     initial="hidden"
     animate="visible"
       variants={variants}

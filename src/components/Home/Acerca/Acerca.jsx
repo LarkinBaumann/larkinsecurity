@@ -27,9 +27,11 @@ function Acerca() {
             <p>
             Nuestro equipo altamente capacitado y comprometido está dedicado a salvaguardar tu entorno, con una amplia gama de soluciones adaptadas a tus necesidades específicas, nos aseguramos de que puedas concentrarte en lo importante, mientras nosotros nos encargamos de tu seguridad.
             </p>
+            <div className='z-20'>
             <Button
             text={"Servicios"}
             />
+            </div>
         </div>
     </div>
   )

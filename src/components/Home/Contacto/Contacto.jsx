@@ -1,12 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
 import ContactCard from './ContactCard'
+import ShadowTop from './Shadows/ShadowTop'
+import ShadowBottom from './Shadows/ShadowBottom'
 
 function Contacto() {
   return (
-    <div className='text-white w-full h-full flex flex-col items-center justify-center gap-[9px] my-[44px] '>
-      <div className='w-[90%] flex justify-center items-center'>
-      <h2 className='font-header text-[27px] text-center font-extrabold leading-[28px]'>
+    <div className='text-white w-full h-full flex flex-col items-center justify-center gap-[9px] my-[44px] relative z-20'>
+      <ShadowTop/>
+      <ShadowBottom/>
+      <div className='w-[90%] flex justify-center items-center '>
+      <h2 className='font-header text-[27px] text-center font-extrabold leading-[28px] '>
       Inicia tu camino, hoy mismo. <span className='titulo6'>
         Contáctanos
       </span>
