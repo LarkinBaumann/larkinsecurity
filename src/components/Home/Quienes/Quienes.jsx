@@ -1,13 +1,15 @@
 import React from "react";
 import Button from "../../Button";
 import Image from "next/image";
-import ShadowQuienes from "./ShadowQuienes";
+import ShadowQuienes from "./Shadows/ShadowQuienes";
+import ShadowTop from "./Shadows/ShadowTop";
 
 
 function Quienes() {
   
   return (
     <div className="w-full h-[540px] flex flex-col justify-center items-center text-center text-white gap-[10px] px-4 relative">
+      <ShadowTop/>
       <div className="w-full h-full flex flex-col justify-between absolute ">
         <div className="w-full h-[40%] z-0">
           <Image
@@ -15,7 +17,7 @@ function Quienes() {
             width={1000}
             height={1000}
             alt="Escoltas"
-            className="-z-10 w-full h-full"
+            className="-z-10 w-full h-full object-cover"
           />
         </div>
         <div className="w-full h-[40%] z-0">
