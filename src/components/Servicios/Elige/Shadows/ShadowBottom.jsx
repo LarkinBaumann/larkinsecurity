@@ -2,8 +2,8 @@ import React from 'react'
 
 function ShadowBottom() {
   return (
-    <div className='absolute -bottom-[400px] -z-0'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="428" height="763" viewBox="0 0 428 763" fill="none">
+    <div className='absolute -bottom-[300px] -z-0 w-full '>
+        <svg xmlns="http://www.w3.org/2000/svg" width="450" height="500" viewBox="0 0 428 763" fill="none">
   <g filter="url(#filter0_f_427_815)">
     <path d="M503.883 295.812C441.059 160.926 173.939 223.967 48.2317 272.349C-307.341 647.081 86.9282 655.996 328.509 613.612C413.144 563.882 566.707 430.699 503.883 295.812Z" fill="url(#paint0_linear_427_815)"/>
     <path d="M503.883 295.812C441.059 160.926 173.939 223.967 48.2317 272.349C-307.341 647.081 86.9282 655.996 328.509 613.612C413.144 563.882 566.707 430.699 503.883 295.812Z" stroke="black" stroke-width="0.426841"/>
