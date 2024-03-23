@@ -422,7 +422,7 @@ function Navbar({}) {
                 <span
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
-                    router.push("/#Acerca")
+                    router.push("/Inicio")
                       setShowMenu(false);
                   }}
                 >
@@ -431,7 +431,7 @@ function Navbar({}) {
                 <span
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
-                    router.push("/#Empresas")
+                    router.push("/Acerca")
                       setShowMenu(false);
                   }}
                 >
@@ -440,7 +440,7 @@ function Navbar({}) {
                 <span
                   className="text-[40px] font-header font-bold"
                   onClick={() => {
-                    router.push("/#Servicio")
+                    router.push("/Servicios")
                       setShowMenu(false);
                   }}
                 >
