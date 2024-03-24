@@ -5,14 +5,14 @@ import Shadow from './Shadows/Shadow'
 function Valores() {
   return (
     <div
-    className='w-full h-[250px] flex flex-col items-center justify-center text-white px-4 mt-8 relative z-10 '
+    className='w-full h-[250px] md:h-[400px] flex flex-col items-center justify-center text-white px-4 mt-8 relative z-10 '
     >
       <Shadow/>
     <div className='flex flex-col justify-center items-center'>
-    <h2 className='text-[25px] font-header font-extrabold'>
+    <h2 className='text-[25px] md:text-[40px] font-header font-extrabold'>
         Valores
     </h2>
-    <p className='text-[9px] font-paragraph font-semiblack leadong-[15px] text-center'>
+    <p className='text-[9px] md:text-[20px]  font-paragraph font-semiblack leading-[15px]  md:leading-[34px]  text-center'>
     Basados en los siguientes valores nos comprometemos a seguir siendo un referente en seguridad y protección para aquellos que confían en nosotros.
     </p>
   
