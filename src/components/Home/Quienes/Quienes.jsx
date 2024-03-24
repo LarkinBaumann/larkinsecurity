@@ -42,7 +42,7 @@ function Quienes() {
       <h2 className="font-header text-[40px] font-extrabold z-10">
         ¿Quiénes <span className="titulo4">somos?</span>
       </h2>
-      <p className="text-[13px] leading-[22px]  z-10">
+      <p className="text-[13px] md:text-[20px] leading-[22px] md:leading-[34px]  px-4 md:px-8 z-10">
         Somos más que un proveedor de seguridad, somos tu socio en la protección
         de lo que más valoras. Confía en nosotros para garantizar tu
         tranquilidad y seguridad en todo momento.

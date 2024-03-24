@@ -27,10 +27,10 @@ function Acerca() {
         </div>
         </div>
         <div className='w-full h-full flex flex-col items-center justify-center  text-white text-center gap-[15px]'>
-            <h2 className='font-header text-[30px] font-black leading-[32px] w-[95%] z-10 '>
+            <h2 className='font-header text-[30px] md:text-[40px] font-extrabold leading-[32px] md:leading-[40px] w-[95%] z-10 '>
                 Garantizamos tu tranquilidad con seguridad de <span className='titulo3'>primera calidad</span>
             </h2>
-            <p className='text-[13px] font-paragraph leading-[22px] z-20 px-4'>
+            <p className='text-[13px] md:text-[20px] md:leading-[34px] font-paragraph leading-[22px] z-20 px-4'>
             Nuestro equipo altamente capacitado y comprometido está dedicado a salvaguardar tu entorno, con una amplia gama de soluciones adaptadas a tus necesidades específicas, nos aseguramos de que puedas concentrarte en lo importante, mientras nosotros nos encargamos de tu seguridad.
             </p>
             <div className='z-20'>

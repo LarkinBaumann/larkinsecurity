@@ -18,7 +18,7 @@ function Contacto() {
       </div>
       <div className='w-[68%] flex justify-center items-center'>
 
-      <p className='text-center text-[12px] leading-[20px]'>
+      <p className='text-center text-[12px] md:text-[20px] leading-[20px] md:leading-[34px] '>
       En nuestro equipo, estamos aquí para ayudarte a dar el primer paso hacia tus metas. Te ofrecemos el impulso que necesitas para iniciar este emocionante camino hacia el éxito.
       </p>
       </div>
