@@ -50,13 +50,13 @@ function Carrousel() {
     initial="hidden"
     animate="visible"
     variants={containerVariants}
-    className="w-full h-full lg:hidden flex flex-row items-center overflow-x-scroll no-scrollbar gap-[7px] z-20 "
+    className="w-full h-full  lg:hidden flex flex-row items-center overflow-x-scroll no-scrollbar gap-[7px] z-20 "
   >
             {traduccion.empresas.map((empresa, index) => (
               <motion.div
                 key={index}
                 variants={childVariants}
-                className="w-full md:w-[350px] h-[390px] md:h-[550px] flex flex-col justify-start items-center bg-[#183F5C2E] rounded-[22px]
+                className="w-full  h-[390px] md:h-[550px] flex flex-col justify-start items-center bg-[#183F5C2E] rounded-[22px]
                 border-[1px] border-[#1777BA] gap-[12px]
                 "
               >
