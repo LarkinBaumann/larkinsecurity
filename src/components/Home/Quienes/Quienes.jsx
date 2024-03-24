@@ -3,6 +3,8 @@ import Button from "../../Button";
 import Image from "next/image";
 import ShadowQuienes from "./Shadows/ShadowQuienes";
 import ShadowTop from "./Shadows/ShadowTop";
+import ShadowTopLg from "./Shadows/ShadowTopLg";
+import ShadowQuienesLg from "./Shadows/ShadowQuienesLg";
 
 
 function Quienes() {
@@ -10,6 +12,7 @@ function Quienes() {
   return (
     <div className="w-full h-[540px] flex flex-col justify-center items-center text-center text-white gap-[10px] px-4 relative">
       <ShadowTop/>
+      <ShadowTopLg/>
       <div className="w-full h-full flex flex-col justify-between absolute ">
         <div className="w-full h-[40%] z-0">
           <Image
@@ -33,6 +36,7 @@ function Quienes() {
       <div className="w-full h-full absolute flex flex-col justify-center items-center">
         <div className="z-0">
       <ShadowQuienes/>
+      <ShadowQuienesLg/>
         </div>
       </div>
       <h2 className="font-header text-[40px] font-extrabold z-10">

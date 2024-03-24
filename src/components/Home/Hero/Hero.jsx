@@ -62,14 +62,14 @@ const childVariants = {
    <div className='w-full h-screen relative  '>
     <div className='w-full h-full'>
 
-        <Image src="/assets/home/hero.png" layout='fill' objectFit='cover' quality={100} alt='hero image'/>
+        <Image src="/assets/home/hero.png" width={1000} height={1000} alt='hero image' className='w-full h-full object-fill' />
    </div>
-   <div className='w-full h-full flex flex-col lg:flex-row justify-center items-center absolute top-0 gap-[35px] z-10'>
+   <div className='w-full h-full flex flex-col lg:flex-row justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] z-10'>
     <Image src="/assets/logoHero.png" width={200} height={200} alt='logo holding'/>
-    <h2 className='text-[50px] text-center font-header font-black leading-[51px] text-white'>
+    <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px] text-white'>
       Piense en sus Negocios,
     </h2>
-    <h2 className='text-[50px] text-center font-header font-black leading-[51px]  titulo2'>
+    <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px]  titulo2'>
       Nosotros en su seguridad
     </h2>
 

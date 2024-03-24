@@ -2,8 +2,8 @@ import React from 'react'
 
 function ShadowTop() {
   return (
-    <div className='absolute -top-[110px] z-10'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="428" height="204" viewBox="0 0 428 204" fill="none">
+    <div className='md:hidden absolute -top-[110px] z-10 w-full'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="204" viewBox="0 0 1000 204" fill="none">
   <g filter="url(#filter0_f_415_681)">
     <path d="M558.168 72.708C443.427 37.5515 53.3563 50.348 -127.336 61.1407C-601.895 152.311 -10.4854 159.418 344.539 151.574C463.558 139.934 672.91 107.865 558.168 72.708Z" fill="#020307"/>
   </g>

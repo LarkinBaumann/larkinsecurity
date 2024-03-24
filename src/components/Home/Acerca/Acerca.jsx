@@ -13,11 +13,17 @@ function Acerca() {
         <div className='w-full h-[350px] absolute left-[0%] top-[35px] z-0'>
             <Image src='/assets/home/acerca/fondo.png' width={2000} height={2000} alt='Acerca de nosotros' className='w-full h-full' />
         </div>
-        <div className='w-[222px] h-[189px] absolute left-[5%] z-20'>
+        <div className='w-[700px] h-[200px] flex flex-col items-center justify-center'>
+          <div className='flex w-full justify-center items-center'>
+
+
+      <div className='w-[222px] h-[189px] translate-x-[30%]  z-20'>
             <Image src='/assets/home/acerca/1.png' width={1920} height={1080} alt='Acerca de nosotros' className='w-full h-full' />
         </div>
-        <div className='w-[222px] h-[189px] absolute right-[5%] z-10'>
+        <div className='w-[222px] h-[189px] -translate-x-[20%] translate-y-[20%]  z-10'>
             <Image src='/assets/home/acerca/2.png' width={1920} height={1080} alt='Acerca de nosotros' className='w-full h-full' />
+        </div>
+          </div>
         </div>
         </div>
         <div className='w-full h-full flex flex-col items-center justify-center  text-white text-center gap-[15px]'>
