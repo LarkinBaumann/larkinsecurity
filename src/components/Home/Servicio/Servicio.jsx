@@ -7,11 +7,11 @@ import ShadowTopLg from './Shadows/ShadowTopLg'
 
 function Servicio() {
   return (
-    <div className='text-white w-full h-full flex flex-col gap-[30px] relative'>
+    <div className='text-white w-full h-full flex  flex-col gap-[30px] relative'>
       <Image src="/assets/home/servicio/fondo.png"  width={1000} height={1000} className='w-full h-[350px] absolute ' alt='fondo servicio'/>
       <ShadowTop/>
       <ShadowTopLg/>
-      <div className='w-full h-full flex flex-row justify-center px-4 '>
+      <div className='w-full h-full flex lg:hidden flex-row justify-center px-4 '>
         <div className='h-[250px] flex flex-col justify-end relative '>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] h-[126px]' />
           <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>

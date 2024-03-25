@@ -64,7 +64,7 @@ const childVariants = {
 
         <Image src={isLarge?"/assets/home/hero2.png":"/assets/home/hero.png"}  fill={true}
           quality={100}
-          priority alt='hero image' className='w-full h-full object-fill lg:object-cover md:object-bottom' />
+          priority alt='hero image' className='w-full h-full object-fill lg:object-cover lg:object-center md:object-bottom' />
    </div>
    <div className='w-full h-full flex flex-col justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] lg:-translate-y-[80px] z-10'>
     <Image src="/assets/logoHero.png" width={200} height={200} alt='logo holding'/>
