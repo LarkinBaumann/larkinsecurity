@@ -9,7 +9,7 @@ function Mapa() {
     gap-[15px] lg:px-8
     '>
         <div className='w-[90%] md:h-[100px] lg:w-[60%] lg:h-[260px]  flex flex-col   '>
-        <h2 className='h-full font-header text-[22px] md:text-[40px] font-extrabold leading-[25px] md:leading-[40px]  '>
+        <h2 className='h-full font-header text-[22px] md:text-[40px] font-extrabold leading-[25px] md:leading-[40px] lg:leading-[43px]  '>
             Tus Socios en Todo México:
             <br/>
             <span className='titulo5 '>
