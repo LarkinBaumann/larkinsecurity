@@ -28,7 +28,7 @@ export default function Home() {
     <meta name="twitter:image" content="/assets/ogimage.jpg" />
     <link rel="icon" href="/assets/favicon.ico" />
   </Head>
-        <main className="w-full h-full bg-[#000206] relative overflow-hidden">
+        <main className="w-full h-full bg-[#000206] relative overflow-hidden max-w-[1440px] min-w-sm mx-auto">
       <Hero/>
       <Acerca/>
       <Quienes/>

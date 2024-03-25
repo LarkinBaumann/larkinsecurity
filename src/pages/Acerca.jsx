@@ -6,7 +6,7 @@ import React from 'react'
 
 function Acerca() {
   return (
-    <div className='w-full h-full px-4 relative overflow-hidden'>
+    <div className='w-full h-full px-4 relative overflow-hidden max-w-[1440px] min-w-sm mx-auto'>
       <div className='w-full h-full absolute -z-10 '>
       <Image src={'/assets/acerca/hero/fondo.png'} alt='fondo' width={1000} height={1000} className='w-full h-full ' />
       </div>

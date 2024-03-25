@@ -77,7 +77,7 @@ function Navbar({}) {
 
   return (
     <>
-      <div className="hidden w-full h-[93px] lg:flex flex-col px-14 max-w-[1440px] mx-auto min-w-sm absolute   ">
+      <div className="hidden w-full h-[93px] lg:flex flex-col px-14 absolute   ">
         <div className="w-full h-full flex flex-row justify-around items-center text-white ">
           <div className="w-[227px] h-[60px]">
             <Image
