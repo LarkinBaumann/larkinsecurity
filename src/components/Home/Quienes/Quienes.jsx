@@ -10,7 +10,7 @@ import ShadowQuienesLg from "./Shadows/ShadowQuienesLg";
 function Quienes() {
   
   return (
-    <div className="w-full h-[540px] flex flex-col lg:flex-row-reverse justify-center items-center text-center lg:text-right text-white gap-[10px] px-4 relative">
+    <div className="w-full h-[540px] flex flex-col lg:flex-row-reverse justify-center items-center text-center lg:text-right text-white gap-[10px] px-4  relative">
       <ShadowTop/>
       <ShadowTopLg/>
       <div className="w-full h-full flex flex-col justify-between absolute ">
@@ -41,7 +41,7 @@ function Quienes() {
       </div>
       
 
-      <div className="w-full h-full z-10 flex flex-col lg:items-end px-4 md:px-8 ">
+      <div className="w-full h-full z-10 flex flex-col lg:items-center px-4 md:px-8 ">
       <h2 className="lg:w-[377px] font-header text-[40px] lg:text-[89px] font-extrabold lg:leading-[92px] z-10">
         ¿Quiénes <span className="titulo4">somos?</span>
       </h2>
@@ -55,10 +55,10 @@ function Quienes() {
       <Button text={"Nosotros"} />
       </div>
       </div>
-      <div className='hidden w-full h-full lg:flex flex-row justify-center px-4 '>
-        <div className='h-[250px] lg:h-[350px] flex flex-col justify-end relative '>
-          <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] h-[126px]' />
-          <div className='flex flex-col text-center w-full absolute top-[60%] lg:top-[75%] text-[12px] font-paragraph leading-[15px]'>
+      <div className='hidden w-full h-full lg:flex flex-row justify-center z-10 '>
+        <div className='h-[250px] lg:h-[350px] flex flex-col justify-end relative lg:translate-x-[80px] lg:translate-y-[20px] '>
+          <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] lg:w-[140px] h-[126px] lg:h-[140px]' />
+          <div className='flex flex-col text-center w-full absolute top-[60%] lg:top-[74%] text-[12px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>Visión global</p>
           <p className='font-light'>e innovación</p>
           </div>
@@ -67,12 +67,12 @@ function Quienes() {
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000}
           className='w-[182px] h-[197px] lg:w-[258px] lg:h-[266px] '
           />
-          <div className='flex flex-col text-center w-full absolute top-[35%] lg:top-[13%] text-[14px] font-paragraph leading-[15px]'>
+          <div className='flex flex-col text-center w-full absolute top-[35%] lg:top-[18%] text-[14px] lg:text-[18px] font-paragraph leading-[15px] lg:leading-[20px]'>
           <p className='font-extrabold'>Compromiso con</p>
           <p className='font-light'>la excelecia</p>
           </div>
         </div>
-        <div className='h-[250px] flex flex-col justify-end relative '>
+        <div className='h-[250px] flex flex-col justify-end relative lg:-translate-x-[40px] lg:translate-y-[50px] '>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] h-[126px]' />
           <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>Integridad y</p>
