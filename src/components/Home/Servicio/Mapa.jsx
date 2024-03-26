@@ -3,7 +3,7 @@ import React from 'react'
 
 function Mapa() {
   return (
-    <div className='w-full h-full px-4 '>
+    <div className='w-full h-full px-4 lg:px-14 '>
 
     <div className='w-full h-[502px] flex flex-col lg:flex-row justify-center items-center text-center lg:text-left rounded-[22px] border-[2px] border-[#1777BA] bg-[#07141C]
     gap-[15px] lg:px-8
