@@ -18,10 +18,10 @@ function Acerca() {
 
 
       <div className='w-[222px] lg:w-[354px] h-[189px] lg:h-[300px] translate-x-[30%] xl:translate-x-[0%] lg:-translate-y-[40%] z-20'>
-            <Image src='/assets/home/acerca/1.png' width={1920} height={1080} alt='Acerca de nosotros' className='w-full h-full' />
+            <Image src='/assets/home/acerca/3.png' width={1920} height={1080} alt='Acerca de nosotros' className='w-full h-full' />
         </div>
         <div className='w-[222px] lg:w-[354px] h-[189px] lg:h-[300px] -translate-x-[20%] xl:-translate-x-[40%] translate-y-[20%] lg:-translate-y-[10%]  z-10'>
-            <Image src='/assets/home/acerca/2.png' fill={true}
+            <Image src='/assets/home/acerca/4.png' fill={true}
           quality={100}
           priority alt='Acerca de nosotros' className='w-full h-full' />
         </div>

@@ -7,8 +7,8 @@ function AcercaDe() {
     <div className="text-white w-full h-full flex flex-col">
 
 {/* Primera parte */}
-<div className="w-full h-full flex flex-col lg:flex-row-reverse ">
-      <div className=" w-full h-full flex flex-col items-center lg:items-start gap-[18px] px-4 md:px-8">
+<div className="w-full h-full flex flex-col lg:flex-row-reverse xl:items-center ">
+      <div className=" w-full h-full flex flex-col items-center lg:items-start  gap-[18px] px-4 md:px-8">
       <h2 className="text-[25px] md:text-[60px] font-header font-black">Acerca De</h2>
       <p className="text-center lg:text-left font-paragraph font-extrabold leading-[18px] md:leading-[34px]   text-[11px] md:text-[20px]">
       Desde nuestra fundación en 1997, <span className="text-[#55B0F0]"> LARKIN BAUMANN - Specialized Private Security Services</span>
@@ -18,7 +18,7 @@ function AcercaDe() {
       text={"Servicios"}
       />
       </div>
-      <Image src="/assets/acerca/acercade/bmw.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full md:h-[500px] lg:h-full md:object-contain flex flex-col lg:rotate-[6.8deg] " />
+      <Image src="/assets/acerca/acercade/bmw2.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full md:h-[500px] lg:h-full xl:w-full xl:h-[752px] 2xl:w-[760px] 2xl:h-[852px] md:object-contain flex flex-col  " />
       </div>
 {/* Segunda parte */}
 <div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-0">
@@ -38,7 +38,7 @@ function AcercaDe() {
       </div>
       <div className="lg:w-full flex flex-row justify-center">
       <div className="w-[220px] lg:w-[400px] xl:w-[500px] h-[220px] lg:h-[400px] xl:h-[500px]">
-        <Image src="/assets/acerca/acercade/escoltas.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full " />
+        <Image src="/assets/acerca/acercade/escoltas2.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full " />
       </div>
       </div>
     </div>

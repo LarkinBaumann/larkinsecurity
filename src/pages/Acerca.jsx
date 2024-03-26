@@ -8,7 +8,7 @@ function Acerca() {
   return (
     <div className='w-full h-full px-4 relative overflow-hidden max-w-[1440px] min-w-sm mx-auto'>
       <div className='w-full h-full absolute -z-10 '>
-      <Image src={'/assets/acerca/hero/fondo.png'} alt='fondo' width={1000} height={1000} className='w-full h-full ' />
+      <Image src={'/assets/acerca/hero/fondo2.png'} alt='fondo' width={10000} height={10000} className='w-full h-full ' />
       </div>
         <Hero/>
         <AcercaDe/>

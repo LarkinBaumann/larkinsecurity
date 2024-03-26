@@ -23,7 +23,7 @@ function Mapa() {
         
         </div>
         <div className='w-[90%] lg:w-[40%] flex flex-row justify-center'>
-            <Image src="/assets/home/servicios/mapa.png" alt="Mapa" width={1000} height={1000} className='w-[237px] lg:w-[406px] h-[229px] lg:h-[393px] animate-pulse' />
+            <Image src="/assets/home/servicios/mapa2.png" alt="Mapa" width={1000} height={1000} className='w-[237px] lg:w-[406px] h-[229px] lg:h-[393px] animate-pulse' />
         </div>
         <div className='w-[90%] flex lg:hidden flex-row justify-center font-paragraph text-[12px] md:text-[20px] leading-[20px] md:leading-[34px] '>
         Cobertura en toda la República Mexicana,  nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país.

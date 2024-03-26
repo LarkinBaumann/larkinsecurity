@@ -14,21 +14,22 @@ function Quienes() {
       <ShadowTop/>
       <ShadowTopLg/>
       <div className="w-full h-full flex flex-col justify-between absolute ">
-        <div className="w-full h-[40%] md:h-[50%] xl:h-[700px] z-0">
+        <div className="w-full h-[40%] md:h-[50%] 2xl:h-[700px] z-0">
           <Image
-            src="/assets/home/quienes/escoltas.png"
-            width={1000}
-            height={1000}
+            src="/assets/home/quienes/escoltas2.png"
+            width={2000}
+            height={2000}
             alt="Escoltas"
             className="-z-10 w-full h-full object-cover"
           />
         </div>
-        <div className="w-full h-[40%] md:h-[50%] xl:-[601px] z-0">
+        <div className="w-full h-[40%] md:h-[50%] 2xl:-[601px] z-0">
           <Image
-            src="/assets/home/quienes/helicoptero.png"
+            src="/assets/home/quienes/helicoptero2.png"
             alt="Helicoptero"
-            width={2000}
-            height={2000}
+            width={4000}
+            height={4000}
+            quality={100}
             className="-z-10  w-full h-full object-cover"
           />
         </div>
