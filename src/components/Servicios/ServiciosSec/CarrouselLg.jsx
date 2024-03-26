@@ -76,8 +76,8 @@ function CarrouselLg() {
                 <div className="w-full h-[157px] md:h-[250px]">
                 <Image
           src={empresa.imagen}
-          width={100}
-          height={100}
+          width={1000}
+          height={1000}
           alt={empresa.nombre}
           className="w-full h-full object-cover rounded-t-[22px]"
          

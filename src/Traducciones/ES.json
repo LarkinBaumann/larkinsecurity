@@ -70,7 +70,7 @@
     {
       "id": 1,
       "nombre": "Protección a Ejectutivos",
-      "imagen": "/assets/servicios/servicios/proteccion.png",
+      "imagen": "/assets/servicios/servicios/proteccion2.png",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Nos especializamos en diseñar y implementar programas y pasos específicos para garantizar el éxito en la seguridad personal de alto nivel. Ofrecemos evaluaciones personalizadas para desarrollar o mejorar programas existentes, asegurando soluciones efectivas tanto en entornos domésticos como empresariales."
     },
@@ -78,34 +78,34 @@
       "id": 2,
       "nombre": "Transportación Ejecutiva",
       "url": "LarkinBaumanSeguridad.com",
-      "imagen": "/assets/servicios/servicios/transportacion.png",
+      "imagen": "/assets/servicios/servicios/transportacion2.png",
       "descripcion": "Somos líderes en transporte ejecutivo con Choferes - Escolta entrenados, garantizando no solo una conducción segura, sino también la protección del Ejecutivo. Desde su llegada a los aeropuertos hasta sus destinos, ofrecemos seguridad y comodidad en vehículos regulares o blindados, adaptándonos a las necesidades del cliente en cualquier parte del país."
     },
     {
       "id": 3,
       "nombre": "Renta de Vehículos Blindados",
-      "imagen": "/assets/servicios/servicios/renta.png",
+      "imagen": "/assets/servicios/servicios/renta2.png",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Experimenta la máxima seguridad con nuestra flota de vehículos blindados y choferes escolta. Ofrecemos soluciones integrales para tus necesidades de transporte seguro, garantizando tu tranquilidad en cada viaje. Confía en nosotros para elevar tu experiencia de transporte a un nivel superior."
     },
     {
       "id": 4,
       "nombre": "Respuesta inmediata a Emergencias",
-      "imagen": "/assets/servicios/servicios/respuesta.png",
+      "imagen": "/assets/servicios/servicios/respuesta2.png",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "En Larkin Emergency Assistance (LEA), estamos disponibles las 24/7 para emergencias y soporte. Trabajamos con autoridades y servicios de emergencia para garantizar su seguridad. Además, ofrecemos análisis de riesgos residenciales e institucionales, con soluciones personalizadas."
     },
     {
       "id": 5,
       "nombre": "Investigación de Antecedentes de Personal",
-      "imagen": "/assets/servicios/servicios/investigacion.png",
+      "imagen": "/assets/servicios/servicios/investigacion2.png",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Ofrecemos servicios de verificación de antecedentes para sus empleados, garantizando la tranquilidad de conocer a fondo su perfil y asegurarse de que cumplen con los requisitos de su empresa. También proporcionamos evaluaciones psicométricas respaldadas por profesionales expertos en el campo."
     },
     {
       "id": 6,
       "nombre": "Auditoría Forense",
-      "imagen": "/assets/servicios/servicios/auditoria.png",
+      "imagen": "/assets/servicios/servicios/auditoria2.png",
       "url": "LarkinBaumanSeguridad.com",
       "descripcion": "Nuestro servicio se centra en descubrir y documentar irregularidades financieras o fraudes, utilizando técnicas forenses avanzadas.Ofrecemos detección temprana de fraudes, protección de activos, cumplimiento normativo, reconstrucción de eventos y garantía de confidencialidad. Preserva la integridad y reputación de tu empresa."
     }
