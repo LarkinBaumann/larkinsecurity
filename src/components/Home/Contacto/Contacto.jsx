@@ -74,9 +74,9 @@ function Contacto() {
     <>
      <div
       id="Contacto"
-      className="w-full h-[800px] flex flex-col justify-center items-center  px-4 lg:px-14 gap-[15px] relative z-20 mt-10"
+      className="w-full h-[450px] lg:h-[800px] flex flex-col justify-center items-center  px-4 lg:px-14 gap-[15px] relative z-20 mt-10"
     >
-      <div className='w-full h-[604px]   flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20
+      <div className='hidden w-full h-[604px] lg:flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20
       rounded-[22px] border-[2px] border-[#1777BA] bg-[#07141C]
       '>
       <motion.h2

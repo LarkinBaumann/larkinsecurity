@@ -57,7 +57,7 @@ function CarrouselLg() {
 
 
   return (
-    <div className='w-full h-full flex flex-col gap-[33px]'>
+    <div className='hidden w-full h-full lg:flex flex-col gap-[33px]'>
       
     <motion.div
     initial="hidden"
