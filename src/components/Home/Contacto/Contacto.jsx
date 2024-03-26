@@ -80,7 +80,7 @@ function Contacto() {
       rounded-[22px] border-[2px] border-[#1777BA] bg-[#07141C]
       '>
       <motion.h2
-        className="hidden lg:block  w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
+        className="hidden lg:block  w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[58px] xl:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
