@@ -71,7 +71,7 @@ function Carrousel() {
         />
                 </div>
                 <div
-                  className="w-[101px] md:w-[150px] h-[38px] px[6px] py-[15px] flex flex-row justify-center items-center
+                  className="w-[151px] md:w-[150px] h-[38px] px[6px] py-[15px] flex flex-row justify-center items-center
                     rounded-[5px]
                     "
                   style={{ background: "rgba(11, 32, 46, 0.30)" }}
