@@ -18,7 +18,7 @@ function AcercaDe() {
       text={"Servicios"}
       />
       </div>
-      <Image src="/assets/acerca/acercade/bmw.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full md:h-[500px] md:object-contain flex flex-col lg:rotate-[6.5deg] " />
+      <Image src="/assets/acerca/acercade/bmw.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full md:h-[500px] lg:h-full md:object-contain flex flex-col lg:rotate-[6.8deg] " />
       </div>
 {/* Segunda parte */}
 <div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-0">
@@ -37,7 +37,7 @@ function AcercaDe() {
       </div>
       </div>
       <div className="lg:w-full flex flex-row justify-center">
-      <div className="w-[220px] lg:w-[500px] h-[220px] lg:h-[500px]">
+      <div className="w-[220px] lg:w-[400px] xl:w-[500px] h-[220px] lg:h-[400px] xl:h-[500px]">
         <Image src="/assets/acerca/acercade/escoltas.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full " />
       </div>
       </div>

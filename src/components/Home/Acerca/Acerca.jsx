@@ -35,7 +35,7 @@ function Acerca() {
             <p className='text-[13px] md:text-[20px] lg:text-[18px] md:leading-[34px] lg:w-[482px] font-paragraph leading-[22px] z-20 '>
             Nuestro equipo altamente capacitado y comprometido está dedicado a salvaguardar tu entorno, con una amplia gama de soluciones adaptadas a tus necesidades específicas, nos aseguramos de que puedas concentrarte en lo importante, mientras nosotros nos encargamos de tu seguridad.
             </p>
-            <div className='w-full flex flex-row justify-center lg:justify-start items-center z-20 lg:px-10'>
+            <div className='w-full flex flex-row justify-center lg:justify-start items-center  z-20 '>
             <Button
             text={"Servicios"}
             />
