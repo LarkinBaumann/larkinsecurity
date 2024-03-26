@@ -21,8 +21,8 @@ function AcercaDe() {
       <Image src="/assets/acerca/acercade/bmw.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full md:h-[500px] md:object-contain flex flex-col lg:rotate-[6.5deg] " />
       </div>
 {/* Segunda parte */}
-<div className="w-full h-full flex flex-col lg:flex-row">
-  <div className=" h-full flex flex-col lg:gap-[40px] lg:pl-10">
+<div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-0">
+  <div className=" h-full flex flex-col lg:gap-[40px] lg:pl-10 mb-4 lg:mb-0">
       <div className=" md:w-[530px]">
         <h2 className="w-full font-header text-[25px] md:text-[40px] font-extrabold">Misión</h2>
         <p className=" text-[11px] md:text-[20px] font-black leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-full">

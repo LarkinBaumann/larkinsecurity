@@ -41,7 +41,7 @@ function Quienes() {
       </div>
       
 
-      <div className="w-full h-full z-10 flex flex-col lg:items-center px-4 md:px-8 ">
+      <div className="w-full h-full z-10 flex flex-col justify-center lg:justify-start items-center px-4 md:px-8 ">
       <h2 className="lg:w-[377px] font-header text-[40px] lg:text-[89px] font-extrabold lg:leading-[92px] z-10">
         ¿Quiénes <span className="titulo4">somos?</span>
       </h2>
@@ -51,7 +51,7 @@ function Quienes() {
         tranquilidad y seguridad en todo momento.
       </p>
       
-      <div className="z-0 lg:hidden">
+      <div className="z-0 lg:hidden mt-[9px]">
       <Button text={"Nosotros"} />
       </div>
       </div>
