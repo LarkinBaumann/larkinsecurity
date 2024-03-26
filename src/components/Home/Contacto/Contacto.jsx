@@ -74,8 +74,11 @@ function Contacto() {
     <>
      <div
       id="Contacto"
-      className="w-full h-[604px]   flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20"
+      className="w-full h-[800px] flex flex-col justify-center items-center  px-4 lg:px-14 gap-[15px] relative z-20 mt-10"
     >
+      <div className='w-full h-[604px]   flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20
+      rounded-[22px] border-[2px] border-[#1777BA] bg-[#07141C]
+      '>
       <motion.h2
         className="hidden lg:block  w-[250px] lg:w-full text-white font-roboto text-[27px] lg:text-[65px] font-bold leading-[28px] lg:leading-[87.55px] text-center"
         initial="hidden"
@@ -217,6 +220,7 @@ function Contacto() {
         </motion.div>
         </a>
       </motion.div>
+      </div>
    
     <div className='text-white w-full h-full flex lg:hidden flex-col items-center justify-center gap-[9px] my-[44px] relative z-20'>
       <ShadowTop/>

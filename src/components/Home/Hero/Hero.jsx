@@ -61,6 +61,8 @@ const childVariants = {
   return (
    <div className='w-full h-screen relative  '>
     <div className='w-full h-full'>
+      {console.log(isLarge)
+      }
 
         <Image src={isLarge?"/assets/home/hero2.png":"/assets/home/hero.png"}  fill={true}
           quality={100}
