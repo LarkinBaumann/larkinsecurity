@@ -84,13 +84,13 @@ function CarrouselLg() {
         />
                 </div>
                 <div
-                  className="w-[101px] md:w-[150px] h-[38px] px[6px] py-[15px] flex flex-row justify-center items-center
+                  className="w-[101px] md:w-[150px] xl:w-[237px] h-[38px] xl:h-[79px] px-[6px] py-[15px] flex flex-row justify-center items-center
                     rounded-[5px]
                     "
                   style={{ background: "rgba(11, 32, 46, 0.30)" }}
                 >
                   <p
-                    className="text-[12px] leading-[15px]
+                    className="xl:w-full text-[12px] xl:text-[25px] leading-[15px] xl:leading-[31px] font-semibold font-header
                       text-center"
                   >
                     {empresa.nombre}

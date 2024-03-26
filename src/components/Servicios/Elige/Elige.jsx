@@ -18,10 +18,10 @@ function Elige() {
                 <Image src="/assets/servicios/elige/2.png" width={100}
                 height={100} alt="Elige Servicios" className='w-[218px] lg:w-[499px] h-[218px] lg:h-[500px]'/>
                 <Image src="/assets/servicios/elige/3.png" width={100}
-                height={100} alt="Elige Servicios" className='w-[104px] lg:w-[239px] h-[104px] lg:h-[239px] absolute top-0 right-[15%] lg:-right-[15%]'/>
+                height={100} alt="Elige Servicios" className='w-[104px] lg:w-[239px] xl:w-[200px] h-[104px] lg:h-[239px] xl:h-[200px] absolute top-0 right-[15%] lg:-right-[15%] xl:right-0'/>
             </div>
             <div className='lg:w-full flex flex-col gap-[10px] px-16 lg:px-10'>
-            <div className='text-[35px] md:text-[40px] text-center lg:text-left font-extrabold font-header leading-[39px]'>
+            <div className='text-[35px] md:text-[40px] xl:text-[74px] text-center lg:text-left font-extrabold font-header leading-[39px] xl:leading-[81px]'>
                 <h2>Elige nuestros <br/> <span className='tituloServicios3'>servicios</span></h2>
                 
             </div>
