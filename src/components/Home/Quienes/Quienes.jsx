@@ -57,7 +57,7 @@ function Quienes() {
       </div>
       </div>
       <div className='hidden w-full h-full lg:flex flex-row justify-center xl:items-center z-10 '>
-        <div className='h-[250px] lg:h-[350px]  flex flex-col justify-end relative lg:translate-x-[80px] lg:translate-y-[20px] 2xl:translate-y-[520px] '>
+        <div className='h-[250px] lg:h-[350px]  flex flex-col justify-end relative lg:translate-x-[80px] lg:translate-y-[20px] 2xl:translate-y-[150px] '>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] lg:w-[140px] 2xl:w-[264px] h-[126px] lg:h-[140px] 2xl:h-[270px]' />
           <div className='flex flex-col text-center w-full absolute top-[60%] lg:top-[74%] 2xl:top-[50%] text-[12px] 2xl:text-[25px] font-paragraph leading-[15px] 2xl:leading-[26px]'>
           <p className='font-extrabold'>Visión global</p>
@@ -73,7 +73,7 @@ function Quienes() {
           <p className='font-light'>la excelecia</p>
           </div>
         </div>
-        <div className='h-[250px]  flex flex-col justify-end relative lg:-translate-x-[40px] lg:translate-y-[50px] xl:translate-y-[10px] 2xl:translate-y-[450px] '>
+        <div className='h-[250px]  flex flex-col justify-end relative lg:-translate-x-[40px] lg:translate-y-[50px] xl:translate-y-[10px] 2xl:translate-y-[70px] '>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] 2xl:w-[194px] h-[126px] 2xl:h-[189px]' />
           <div className='flex flex-col text-center w-full absolute top-[65%] xl:top-[65%] 2xl:top-[50%] text-[12px] 2xl:text-[18px] 2xl:leading-[19px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>Integridad y</p>

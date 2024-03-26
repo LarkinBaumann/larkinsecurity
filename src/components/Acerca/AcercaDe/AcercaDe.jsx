@@ -18,10 +18,13 @@ function AcercaDe() {
       text={"Servicios"}
       />
       </div>
-      <Image src="/assets/acerca/acercade/bmw2.png" width={1000} height={1000} alt="Acerca De" className="w-full h-full md:h-[500px] lg:h-full xl:w-full xl:h-[752px] 2xl:w-[760px] 2xl:h-[852px] md:object-contain flex flex-col  " />
+      <div className="w-full h-full flex flex-row justify-center  items-center">
+
+      <Image src="/assets/acerca/acercade/bmw2.png" width={1000} height={1000} alt="Acerca De" className="w-[202px] h-[239px] md:h-[500px] lg:h-[604px] lg:w-[539px] xl:w-full xl:h-[752px] 2xl:w-[760px] 2xl:h-[852px] md:object-contain flex flex-col rotate-[-7deg] lg:rotate-0  " />
+      </div>
       </div>
 {/* Segunda parte */}
-<div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-0">
+<div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-8">
   <div className=" h-full flex flex-col lg:gap-[40px] lg:pl-10 mb-4 lg:mb-0">
       <div className=" md:w-[530px]">
         <h2 className="w-full font-header text-[25px] md:text-[40px] font-extrabold">Misión</h2>

@@ -8,7 +8,7 @@ import ShadowTopLg from './Shadows/ShadowTopLg'
 function Servicio() {
   return (
     <div className='text-white w-full h-full flex  flex-col gap-[30px] relative'>
-      <Image src="/assets/home/servicio/fondo2.png"  width={4000} height={4000} className='w-full h-[350px] absolute ' alt='fondo servicio'/>
+      <Image src="/assets/home/servicios/fondo2.png"  width={4000} height={4000} className='w-full h-[350px] absolute ' alt='fondo servicio'/>
       <ShadowTop/>
       <ShadowTopLg/>
       <div className='w-full h-full flex lg:hidden flex-row justify-center px-4 '>
