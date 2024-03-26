@@ -77,7 +77,7 @@ function Navbar({}) {
 
   return (
     <>
-      <div className="hidden w-full h-[93px] lg:flex flex-col px-14 absolute   ">
+      <div className="hidden w-full h-[93px] lg:flex flex-col px-14 absolute z-10   ">
         <div className="w-full h-full flex flex-row justify-around items-center text-white ">
           <div className="w-[227px] h-[60px]">
             <Image
@@ -94,9 +94,7 @@ function Navbar({}) {
             <span
               className="cursor-pointer"
               onClick={() => {
-                document
-                  .getElementById("Acerca")
-                  .scrollIntoView({ behavior: "smooth" });
+                router.push("/");
               }}
             >
               {traduccion.navbar.link1}
@@ -104,9 +102,7 @@ function Navbar({}) {
             <span
               className="cursor-pointer"
               onClick={() => {
-                document
-                  .getElementById("Empresas")
-                  .scrollIntoView({ behavior: "smooth" });
+               router.push("/Acerca")
               }}
             >
               {traduccion.navbar.link2}
@@ -114,9 +110,7 @@ function Navbar({}) {
             <span
               className="cursor-pointer"
               onClick={() => {
-                document
-                  .getElementById("Servicio")
-                  .scrollIntoView({ behavior: "smooth" });
+                router.push("/Servicios")
               }}
             >
               {traduccion.navbar.link3}
@@ -444,7 +438,7 @@ function Navbar({}) {
                       setShowMenu(false);
                   }}
                 >
-                  {traduccion.navbar.link3}
+                  {traduccion.navbar.link3} 
                 </span>
               </div>
             </motion.div>

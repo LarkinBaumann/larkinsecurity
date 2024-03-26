@@ -14,8 +14,11 @@ function Hero() {
       <ShadowTop/>
       <ShadowRight/>
       <ShadowLeft/>
-        <Image src={isLarge?"/assets/servicios/heroLg.png" :"/assets/servicios/hero.png"} layout='fill' objectFit='cover' alt="Hero Servicios"
-        className='w-full h-full object-cover absolute -z-20'
+        <Image src={"/assets/servicios/hero.png" } layout='fill' objectFit='cover' alt="Hero Servicios"
+        className='w-full h-full lg:hidden object-cover absolute -z-20'
+        />
+        <Image src={"/assets/servicios/heroLg.png" } layout='fill' objectFit='cover' alt="Hero Servicios"
+        className='hidden lg:block w-full h-full object-cover absolute -z-20'
         />
         <div className='w-full h-full flex flex-col justify-center items-center lg:items-start px-8 md:px-32 lg:px-10 text-white lg:gap-4 '>
             <h2 className='text-[35px] md:text-[60px] lg:text-[66px] font-header text-center lg:text-left leading-[39px] md:leading-[75px] font-extrabold z-10 lg:w-[708px] lg:mt-[100px]'>
