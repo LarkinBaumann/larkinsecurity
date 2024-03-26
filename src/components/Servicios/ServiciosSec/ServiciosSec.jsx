@@ -7,7 +7,7 @@ import CarrouselLg from './CarrouselLg'
 function ServiciosSec() {
   return (
     <div
-    className='w-full h-[600px] md:h-[700px] flex flex-col items-center justify-center text-white px-4 pt-8 gap-[37px]  relative'
+    className='w-full h-[600px] md:h-[700px] lg:h-full flex flex-col items-center justify-center text-white px-4 pt-8 gap-[37px]  relative'
     >
       
       <ShadowTop/>

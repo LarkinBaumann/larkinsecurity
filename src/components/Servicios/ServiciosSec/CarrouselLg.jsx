@@ -9,6 +9,9 @@ function CarrouselLg() {
   const [ref, inView] = useInView({
     triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
   });
+  const [ref2, inView2] = useInView({
+    triggerOnce: true, // Cambia a true para que la animación solo se ejecute una vez
+  });
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -42,16 +45,25 @@ function CarrouselLg() {
       },
     },
   };
+  const variantsPlus = {
+    hidden: { x: 100 },
+    visible: {
+      x: 0,
+      transition: { duration: 3, ease: "easeOut" },
+    },
+  };
 
   const [position, setPosition] = useState(0)
 
 
   return (
+    <div className='w-full h-full flex flex-col gap-[33px]'>
+      
     <motion.div
     initial="hidden"
     animate="visible"
     variants={containerVariants}
-    className="w-full h-full   flex flex-row items-center overflow-x-scroll no-scrollbar gap-[7px] z-20 "
+    className="w-full h-full   flex flex-row items-center  gap-[7px] z-20 "
   >
             {traduccion.empresas.slice(0 + position, 3 + position).map((empresa, index) => (
               <motion.div
@@ -61,7 +73,7 @@ function CarrouselLg() {
                 border-[1px] border-[#1777BA] gap-[12px]
                 "
               >
-                <div className="w-[184px] md:w-[350px] h-[157px] md:h-[250px]">
+                <div className="w-full h-[157px] md:h-[250px]">
                 <Image
           src={empresa.imagen}
           width={100}
@@ -92,7 +104,40 @@ function CarrouselLg() {
                 </div>
               </motion.div>
             ))}
+            
           </motion.div>
+          <div className="hidden lg:flex flex-row justify-end items-center gap-[24px] z-20 ">
+          <div
+            className={
+              position == 0
+                ? "hidden"
+                : "w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full border-2 border-[#3D65F3] cursor-pointer"
+            }
+            onClick={() => setPosition(position - 3)}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <path d="M39.6972 21.7197H15.8181L26.7864 10.7514L24.0002 7.98483L8.30322 23.6818L24.0002 39.3788L26.7668 36.6122L15.8181 25.6439H39.6972V21.7197Z" fill="white"/>
+</svg>
+          </div>
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={variantsPlus}
+            className={
+              position ==  3
+                ? "hidden"
+                : "w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full border-2 border-[#3D65F3] cursor-pointer"
+            }
+            onClick={() => setPosition(position + 3)}
+          >
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+  <path d="M0.416608 18.644L24.2956 18.644L13.3274 29.6122L16.1136 32.3788L31.8105 16.6818L16.1136 0.984867L13.347 3.75146L24.2956 14.7197L0.416607 14.7197L0.416608 18.644Z" fill="white"/>
+</svg>
+          </motion.div>
+        </div>
+          
+    </div>
   )
 }
 
