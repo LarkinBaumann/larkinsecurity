@@ -10,7 +10,7 @@ function Acerca() {
 
       <div className='w-full lg:w-[50%] h-[300px] lg:h-[500px] flex flex-row justify-center items-center relative '>
 
-        <div className=' h-[350px] absolute left-[0%] top-[35px] z-0'>
+        <div className='w-full h-[350px] absolute left-[0%] top-[35px] z-0'>
             <Image src='/assets/home/acerca/fondo.png' width={2000} height={2000} alt='Acerca de nosotros' className='w-full h-full lg:hidden' />
         </div>
         <div className='w-[700px]  h-[200px] lg:h-full flex flex-col items-center justify-center'>
