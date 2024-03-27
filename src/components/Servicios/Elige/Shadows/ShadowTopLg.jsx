@@ -3,7 +3,7 @@ import React from 'react'
 function ShadowTopLg() {
   return (
     <div className='hidden md:block absolute -top-[150px] z-10'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="1366" height="492" viewBox="0 0 1366 492" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="492" viewBox="0 0 1366 492" fill="none">
   <g filter="url(#filter0_f_582_1586)">
     <path d="M1398.73 175.865C1187.6 82.1804 460.638 109.386 123.546 134.7C-766.148 365.324 334.2 393.331 995.585 378.507C1217.94 349.995 1609.86 269.549 1398.73 175.865Z" fill="#000206"/>
   </g>
