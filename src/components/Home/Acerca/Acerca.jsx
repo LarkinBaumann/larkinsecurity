@@ -28,7 +28,7 @@ function Acerca() {
           </div>
         </div>
         </div>
-        <div className='w-full lg:w-[50%] h-full flex flex-col items-center lg:items-start  justify-center  text-white text-center lg:text-left gap-[15px] pl-4 xl:px-10'>
+        <div className='w-full lg:w-[50%] h-full flex flex-col items-center lg:items-start  justify-center  text-white text-center lg:text-left gap-[15px] px-10 md:pl-4 xl:px-10'>
             <h2 className='font-header text-[30px] md:text-[40px] font-extrabold leading-[32px] md:leading-[40px] w-[95%] lg:w-[482px] z-10 '>
                 Garantizamos tu tranquilidad con seguridad de <span className='titulo3'>primera calidad</span>
             </h2>

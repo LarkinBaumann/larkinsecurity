@@ -5,10 +5,10 @@ import Shadow from './Shadows/Shadow'
 function Valores() {
   return (
     <div
-    className='w-full h-[250px] md:h-[400px] lg:h-[900px] flex flex-col items-center justify-center text-white px-4 lg:px-10 mt-8 relative z-10 '
+    className='w-full h-[250px] md:h-[400px] lg:h-[900px] flex flex-col items-center justify-center text-white px-10 mt-8 relative z-10 '
     >
       <Shadow/>
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center '>
     <h2 className='text-[25px] md:text-[40px] lg:text-[60px] font-header font-extrabold'>
         Valores
     </h2>

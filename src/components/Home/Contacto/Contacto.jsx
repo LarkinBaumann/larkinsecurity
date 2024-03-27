@@ -74,8 +74,10 @@ function Contacto() {
     <>
      <div
       id="Contacto"
-      className="w-full h-[450px] lg:h-[800px] flex flex-col justify-center items-center  px-4 lg:px-14 gap-[15px] relative z-20 mt-10"
+      className="w-full h-[500px] lg:h-[800px] flex flex-col justify-center items-center  px-4 lg:px-14 gap-[15px] relative z-20 mt-10"
     >
+      <ShadowTop/>
+      <ShadowBottom/>
       <div className='hidden w-full h-[604px] lg:flex flex-col  justify-center items-center px-4 lg:px-14 gap-[15px] relative z-20
       rounded-[22px] border-[2px] border-[#1777BA] bg-[#07141C]
       '>
@@ -222,17 +224,17 @@ function Contacto() {
       </motion.div>
       </div>
    
-    <div className='text-white w-full h-full flex lg:hidden flex-col items-center justify-center gap-[9px] my-[44px] relative z-20'>
+    <div className='text-white w-full h-full flex lg:hidden flex-col items-center justify-center gap-[9px] my-[44px] relative'>
       <ShadowTop/>
       <ShadowBottom/>
-      <div className='w-[90%] flex justify-center items-center '>
+      <div className='w-[90%] flex justify-center items-center z-20 '>
       <h2 className='font-header text-[27px] text-center font-extrabold leading-[28px] '>
       Inicia tu camino, hoy mismo. <span className='titulo6'>
         Contáctanos
       </span>
       </h2>
       </div>
-      <div className='w-[68%] flex justify-center items-center'>
+      <div className='w-[68%] flex justify-center items-center z-20'>
 
       <p className='text-center text-[12px] md:text-[20px] leading-[20px] md:leading-[34px] '>
       En nuestro equipo, estamos aquí para ayudarte a dar el primer paso hacia tus metas. Te ofrecemos el impulso que necesitas para iniciar este emocionante camino hacia el éxito.
