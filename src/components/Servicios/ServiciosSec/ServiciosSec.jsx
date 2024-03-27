@@ -11,7 +11,7 @@ function ServiciosSec() {
     >
       
       <ShadowTop/>
-        <h2 className='text-[35px] md:text-[40px] xl:text-[96px] font-header font-extrabold'>Servicios</h2>
+        <h2 className='text-[35px] md:text-[40px] xl:text-[96px] font-header font-extrabold z-10'>Servicios</h2>
         <Carrousel/>
         <CarrouselLg/>
         </div>

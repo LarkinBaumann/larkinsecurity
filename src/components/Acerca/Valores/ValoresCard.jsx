@@ -7,7 +7,7 @@ function ValoresCard({titulo, parrafo,icono, texto}) {
     ${parrafo == 'Excelencia' && "lg:translate-y-[50px]"}
     `}>
           <div className='w-[53px] lg:w-[105px] h-[53px] lg:h-[152px]'>
-          <Image  src={icono} alt="Email" width={100} height={100} className='w-full h-full object-contain  ' />
+          <Image  src={icono} alt="Email" width={2000} height={2000} className='w-full h-full object-contain  ' />
           </div>
           
           <div className='w-full flex flex-col lg:gap-[21px]'>
