@@ -23,7 +23,7 @@ function Hero() {
 
       </div>
       <div className='lg:w-full z-10'>
-        <Image src="/assets/acerca/hero/hero2.png" width={1000} height={1000} alt="Hero Acerca" className='w-[295px] lg:w-[500px] h-[295px] lg:h-[500px] ' />
+        <Image src="/assets/acerca/hero/hero2.png" width={1000} height={1000} alt="Hero Acerca" className='w-[295px] lg:w-[400px] xl:w-[500px] h-[295px] lg:h-[400px] xl:h-[500px] ' />
       </div>
       
     </div>

@@ -21,15 +21,15 @@ function AcercaDe() {
       />
       </div>
       <div className="w-full h-full flex flex-row justify-center  items-center relative">
-        <Image src="/assets/acerca/acercade/bmwfondo.svg" width={1000} height={1000} alt="Acerca De" className="absolute"
+        <Image src="/assets/acerca/acercade/bmwfondo.svg" width={1000} height={1000} alt="Acerca De" className="absolute "
 />
-      <Image src="/assets/acerca/acercade/bmw2.png" width={1000} height={1000} alt="Acerca De" className="w-[202px] h-[239px] md:h-[500px] lg:h-[604px] lg:w-[539px] xl:w-full xl:h-[752px] 2xl:w-[760px] 2xl:h-[852px] md:object-contain flex flex-col rotate-[-7deg] lg:rotate-0  " />
+      <Image src="/assets/acerca/acercade/bmw2.png" width={1000} height={1000} alt="Acerca De" className="w-[202px] h-[239px] md:h-[400px] md:w-[500px] lg:h-[604px] lg:w-[539px] xl:w-full xl:h-[752px] 2xl:w-[760px] 2xl:h-[852px] md:object-contain flex flex-col rotate-[-7deg] lg:rotate-0  " />
       </div>
       </div>
 {/* Segunda parte */}
 <div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-8">
   <div className=" h-full flex flex-col lg:gap-[40px] lg:pl-10 mb-4 lg:mb-0">
-      <div className=" md:w-[530px]">
+      <div className=" md:w-[530px] z-20">
         <h2 className="w-full font-header text-[25px] md:text-[40px] font-extrabold">Misión</h2>
         <p className=" text-[11px] md:text-[20px] font-black leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-full">
         En Larkin Baumann, buscamos satisfacer las necesidades de nuestros clientes, ofreciendo soluciones de seguridad personalizadas que se adaptan a sus requerimientos específicos con servicios de alta calidad, integridad y confidencialidad. 
