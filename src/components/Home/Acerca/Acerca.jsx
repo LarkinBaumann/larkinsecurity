@@ -5,7 +5,7 @@ import ShadowTop from './Shadows/ShadowTop'
 
 function Acerca() {
   return (
-    <div className='w-full h-full flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between relative'>
+    <div className='w-full h-full flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between relative lg:px-8 '>
       <ShadowTop/>
 
       <div className='w-full lg:w-[50%] h-[300px] lg:h-[500px] flex flex-row justify-center items-center relative '>

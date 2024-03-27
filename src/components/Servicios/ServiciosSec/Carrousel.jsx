@@ -83,7 +83,7 @@ function Carrousel() {
                     {empresa.nombre}
                   </p>
                 </div>
-                <p className="text-center font-paragraph  leading-[15px] md:leading-[24px] text-[11px] md:text-[17px] w-full h-[64px] px-2">
+                <p className="text-center font-paragraph  leading-[15px] md:leading-[24px] text-[11px] md:text-[15px] w-full h-[64px] px-2">
                   {empresa.descripcion}
                 </p>
                 <div>

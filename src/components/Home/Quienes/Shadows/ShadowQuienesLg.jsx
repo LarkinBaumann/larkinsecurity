@@ -10,7 +10,7 @@ function ShadowQuienesLg() {
   return (
     <div
     className='hidden md:block '
-    ><svg xmlns="http://www.w3.org/2000/svg" width="1440" height={isLarge?"847":"600"} viewBox="0 0 1366 847" fill="none">
+    ><svg xmlns="http://www.w3.org/2000/svg" width="1440" height={isLarge?"900":"600"} viewBox="0 0 1366 847" fill="none">
     <g filter="url(#filter0_f_563_863)">
       <path d="M1812.18 346.195C1501.77 197.529 417.801 206.624 -85.3804 229.755C-1420.52 534.799 217.2 624.084 1202.95 630.595C1535.37 597.74 2122.6 494.862 1812.18 346.195Z" fill="#030C14"/>
       <path d="M1812.18 346.195C1501.77 197.529 417.801 206.624 -85.3804 229.755C-1420.52 534.799 217.2 624.084 1202.95 630.595C1535.37 597.74 2122.6 494.862 1812.18 346.195Z" stroke="black" stroke-width="1.21662"/>

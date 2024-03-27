@@ -12,8 +12,11 @@ export default function App({ Component, pageProps }) {
     <Navbar/>
     </div>
   <Component {...pageProps} />
+  <div className="w-full h-full  max-w-[1440px] mx-auto min-w-sm m-auto z-20">
+  </div>
   <Footer/>
   <Jaizmora/>
+    
   </div>
   </AppProvider>
   </>

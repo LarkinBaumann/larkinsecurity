@@ -71,8 +71,8 @@ const childVariants = {
           quality={100}
           priority alt='hero image' className='hidden lg:block w-full h-full object-fill lg:object-cover lg:object-center md:object-bottom' />
    </div>
-   <div className='w-full h-full flex flex-col justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] md:-translate-y-[150px] lg:-translate-y-[80px] z-10'>
-    <Image src="/assets/logoHero.png" width={200} height={200} alt='logo holding' className='md:w-[550px] lg:w-[350px]'/>
+   <div className='w-full h-full flex flex-col justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] md:-translate-y-[150px] lg:-translate-y-[80px] 2xl:-translate-y-[200px] z-10'>
+    <Image src="/assets/logoHero.png" width={200} height={200} alt='logo holding' className='md:w-[550px] lg:w-[350px] 2xl:w-[500px]'/>
     <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px] text-white'>
       Piense en sus Negocios,
     </h2>

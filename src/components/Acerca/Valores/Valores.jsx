@@ -20,19 +20,19 @@ function Valores() {
     
     <div className='w-full flex flex-row justify-center items-center gap-[11px] mt-8'>
         <ValoresCard
-        icono={'/assets/icons/innovacion.png'}
+        icono={'/assets/icons/innovacion2.png'}
         titulo={'Visión Global e'}
         parrafo={'Innovacion'}
         texto = {"Nos impulsamos hacia nuevas ideas y enfoques para abordar los desafíos de seguridad en un mundo cambiante. Estamos comprometidos con la innovación y la adopción de tecnologías emergentes para adaptarnos rápidamente a las necesidades globales de seguridad."}
         />
         <ValoresCard
-        icono={'/assets/icons/compromiso.png'}
+        icono={'/assets/icons/compromiso2.png'}
         titulo={'Compromiso y'}
         parrafo={'Excelencia'}
         texto={"Buscamos la excelencia en cada aspecto de nuestro trabajo, desde la selección y formación de nuestro equipo hasta la implementación de tecnología, con el objetivo de superar expectativas y establecer estándares de calidad excepcionales en todos nuestros servicios."}
         />
         <ValoresCard
-        icono={'/assets/icons/integridad.png'}
+        icono={'/assets/icons/integridad2.png'}
         titulo={'Integridad y'}
         parrafo={'Confianza'}
         texto={

@@ -61,7 +61,7 @@ function Footer() {
       inView={inView}
       />
       <div className="w-full h-[327px] flex flex-row justify-center lg:justify-between items-center text-white 
-      max-w-[1444px] mx-auto min-w-sm  ">
+      max-w-[1444px] mx-auto min-w-sm lg:px-6  ">
         <div className="w-full flex flex-col lg:flex-row items-center lf:items-start gap-4 ">
           <div className="w-[138px] lg:w-[227px] h-[123px] lg:h-[203px]">
             <Image

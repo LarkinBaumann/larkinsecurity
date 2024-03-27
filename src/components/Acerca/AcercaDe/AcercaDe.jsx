@@ -35,7 +35,7 @@ function AcercaDe() {
         En Larkin Baumann, buscamos satisfacer las necesidades de nuestros clientes, ofreciendo soluciones de seguridad personalizadas que se adaptan a sus requerimientos específicos con servicios de alta calidad, integridad y confidencialidad. 
         </p>
       </div>
-      <div className="md:w-full text-right lg:text-left w-full flex flex-col items-end ">
+      <div className="md:w-full text-right lg:text-left w-full flex flex-col items-end lg:items-start ">
         <h2 className="font-header text-[25px] font-extrabold md:text-[40px] ">Visión</h2>
         <p className="text-[11px] md:text-[20px] font-extrabold leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-[530px]">
         Buscamos ser líderes de las compañías de servicios de seguridad privada, con la mayor rentabilidad sostenida donde los mejores aspiren a trabajar, además de ser reconocidos como el estándar de excelencia en la industria de servicios de seguridad privada.

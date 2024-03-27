@@ -69,7 +69,7 @@ function CarrouselLg() {
               <motion.div
                 key={index}
                 variants={childVariants}
-                className="w-full  h-[390px] md:h-[550px] flex flex-col justify-start items-center bg-[#183F5C2E] rounded-[22px]
+                className="w-full  h-[390px] md:h-[550px] flex flex-col justify-start items-center bg-[#183f5cd8] rounded-[22px]
                 border-[1px] border-[#1777BA] gap-[12px]
                 "
               >
@@ -84,7 +84,7 @@ function CarrouselLg() {
         />
                 </div>
                 <div
-                  className="w-[101px] md:w-[150px] xl:w-[237px] h-[38px] xl:h-[79px] px-[6px] py-[15px] flex flex-row justify-center items-center
+                  className="w-[101px] md:w-[150px] xl:w-[350px] h-[38px] xl:h-[79px] px-[6px] py-[15px] flex flex-row justify-center items-center
                     rounded-[5px]
                     "
                   style={{ background: "rgba(11, 32, 46, 0.30)" }}
@@ -96,7 +96,7 @@ function CarrouselLg() {
                     {empresa.nombre}
                   </p>
                 </div>
-                <p className="text-center font-paragraph  leading-[15px] md:leading-[24px] text-[11px] md:text-[17px] w-full h-[64px] px-2">
+                <p className="text-center font-paragraph  leading-[15px] md:leading-[24px] text-[11px] md:text-[15px] w-full h-[64px] px-2">
                   {empresa.descripcion}
                 </p>
                 <div>
@@ -111,7 +111,7 @@ function CarrouselLg() {
             className={
               position == 0
                 ? "hidden"
-                : "w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full border-2 border-[#3D65F3] cursor-pointer"
+                : "w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full border-2 border-[#55B0F0] cursor-pointer"
             }
             onClick={() => setPosition(position - 3)}
           >
@@ -126,7 +126,7 @@ function CarrouselLg() {
             className={
               position ==  3
                 ? "hidden"
-                : "w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full border-2 border-[#3D65F3] cursor-pointer"
+                : "w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full border-2 border-[#55B0F0] cursor-pointer"
             }
             onClick={() => setPosition(position + 3)}
           >
