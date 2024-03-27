@@ -56,7 +56,7 @@ function Carrousel() {
               <motion.div
                 key={index}
                 variants={childVariants}
-                className="w-full  h-[420px] md:h-[550px] flex flex-col justify-start items-center bg-[#183F5C2E] rounded-[22px]
+                className="w-full  h-[420px] md:h-[550px] flex flex-col justify-start items-center bg-[#183f5cd8] rounded-[22px]
                 border-[1px] border-[#1777BA] gap-[12px]
                 "
               >

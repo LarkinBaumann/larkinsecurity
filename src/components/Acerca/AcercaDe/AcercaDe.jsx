@@ -28,16 +28,16 @@ function AcercaDe() {
       </div>
 {/* Segunda parte */}
 <div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-8">
-  <div className=" h-full flex flex-col lg:gap-[40px] lg:pl-10 mb-4 lg:mb-0">
+  <div className="w-full h-full flex flex-col lg:gap-[40px]  px-10 lg:pl-10 mb-4 lg:mb-0">
       <div className=" md:w-[530px] z-20">
         <h2 className="w-full font-header text-[25px] md:text-[40px] font-extrabold">Misión</h2>
         <p className=" text-[11px] md:text-[20px] font-extrabold leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-full">
         En Larkin Baumann, buscamos satisfacer las necesidades de nuestros clientes, ofreciendo soluciones de seguridad personalizadas que se adaptan a sus requerimientos específicos con servicios de alta calidad, integridad y confidencialidad. 
         </p>
       </div>
-      <div className="md:w-[530px] text-right lg:text-left ">
-        <h2 className="font-header text-[25px] font-extabold md:text-[40px] ">Visión</h2>
-        <p className="text-[11px] md:text-[20px] font-extrabold leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-full">
+      <div className="md:w-full text-right lg:text-left w-full flex flex-col items-end ">
+        <h2 className="font-header text-[25px] font-extrabold md:text-[40px] ">Visión</h2>
+        <p className="text-[11px] md:text-[20px] font-extrabold leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-[530px]">
         Buscamos ser líderes de las compañías de servicios de seguridad privada, con la mayor rentabilidad sostenida donde los mejores aspiren a trabajar, además de ser reconocidos como el estándar de excelencia en la industria de servicios de seguridad privada.
         </p>
       </div>

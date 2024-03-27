@@ -12,7 +12,7 @@ function Valores() {
     <h2 className='text-[25px] md:text-[40px] lg:text-[60px] font-header font-extrabold'>
         Valores
     </h2>
-    <p className='text-[9px] md:text-[20px]  font-paragraph font-semiblack leading-[15px]  md:leading-[34px] lg:leading-[30px]  text-center lg:px-[150px] px-8 '>
+    <p className='text-[11px] md:text-[20px]  font-paragraph font-semiblack leading-[15px]  md:leading-[34px] lg:leading-[30px]  text-center lg:px-[150px] px-8 '>
     Basados en los siguientes valores nos comprometemos a seguir siendo un referente en seguridad y protección para aquellos que confían en nosotros.
     </p>
   

@@ -63,15 +63,16 @@ const childVariants = {
     <div className='w-full h-full'>
       
 
-        <Image src={"/assets/home/hero.png"}  fill={true}
-          quality={100}
+        <Image src={"/assets/home/hero.png"}  layout='fill' objectFit='cover' quality={100}
           priority alt='hero image' className='w-full h-full lg:hidden object-fill lg:object-cover lg:object-center md:object-bottom' />
+
+
         <Image src={"/assets/home/hero2.png"}  fill={true}
           quality={100}
           priority alt='hero image' className='hidden lg:block w-full h-full object-fill lg:object-cover lg:object-center md:object-bottom' />
    </div>
-   <div className='w-full h-full flex flex-col justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] lg:-translate-y-[80px] z-10'>
-    <Image src="/assets/logoHero.png" width={200} height={200} alt='logo holding'/>
+   <div className='w-full h-full flex flex-col justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] md:-translate-y-[150px] lg:-translate-y-[80px] z-10'>
+    <Image src="/assets/logoHero.png" width={200} height={200} alt='logo holding' className='md:w-[550px] lg:w-[350px]'/>
     <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px] text-white'>
       Piense en sus Negocios,
     </h2>

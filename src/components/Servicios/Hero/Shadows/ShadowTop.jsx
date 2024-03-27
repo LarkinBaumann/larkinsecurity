@@ -2,7 +2,7 @@ import React from 'react'
 
 function ShadowTop() {
   return (
-    <div className='absolute -top-[70px] '>
+    <div className='absolute -top-[70px] z-10 '>
         <svg xmlns="http://www.w3.org/2000/svg"
         className='lg:hidden'
         width="428" height="487" viewBox="0 0 428 487" fill="none">

@@ -20,7 +20,7 @@ function Quienes() {
             width={2000}
             height={2000}
             alt="Escoltas"
-            className="-z-10 w-full h-full object-cover"
+            className="-z-10 w-full h-full object-cover md:object-top lg:object-cover"
           />
         </div>
         <div className="w-full h-[40%] md:h-[50%] 2xl:-[601px] z-0">

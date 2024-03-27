@@ -9,7 +9,7 @@ const isExtraLarge = useMediaQuery({ query: "(min-width: 1280px)" });
 const isDoubleExtraLarge = useMediaQuery({ query: "(min-width: 1536px)" });
   return (
     <div className='hidden md:block absolute -top-[210px] z-10 w-full'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="1440" height={isLarge?"437":"400"} viewBox="0 0 1366 437" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1440" height={isLarge?"437":"320"} viewBox="0 0 1366 437" fill="none">
   <g filter="url(#filter0_f_563_849)">
     <path d="M1513.76 145.085C1278.65 61.7114 478.163 96.007 107.308 123.576C-867.254 346.849 346.172 358.505 1074.7 336.425C1319.02 307.384 1748.88 228.459 1513.76 145.085Z" fill="#020C13"/>
     <path d="M1513.76 145.085C1278.65 61.7114 478.163 96.007 107.308 123.576C-867.254 346.849 346.172 358.505 1074.7 336.425C1319.02 307.384 1748.88 228.459 1513.76 145.085Z" stroke="black" stroke-width="1.21662"/>
