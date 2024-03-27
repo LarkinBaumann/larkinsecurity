@@ -75,7 +75,7 @@ const childVariants = {
     <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px] text-white'>
       Piense en sus Negocios,
     </h2>
-    <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px]  titulo2'>
+    <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px]  text-[#a2b3ee]'>
       Nosotros en su seguridad
     </h2>
 
