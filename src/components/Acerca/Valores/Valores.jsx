@@ -5,14 +5,14 @@ import Shadow from './Shadows/Shadow'
 function Valores() {
   return (
     <div
-    className='w-full h-[250px] md:h-[400px] lg:h-[900px] flex flex-col items-center justify-center text-white px-10 mt-8 relative z-10 '
+    className='w-full h-[250px] md:h-[400px] lg:h-[900px] flex flex-col items-center justify-center text-white  mt-8 relative z-10 '
     >
       <Shadow/>
     <div className='flex flex-col justify-center items-center '>
     <h2 className='text-[25px] md:text-[40px] lg:text-[60px] font-header font-extrabold'>
         Valores
     </h2>
-    <p className='text-[9px] md:text-[20px]  font-paragraph font-semiblack leading-[15px]  md:leading-[34px] lg:leading-[30px]  text-center lg:px-[150px]'>
+    <p className='text-[9px] md:text-[20px]  font-paragraph font-semiblack leading-[15px]  md:leading-[34px] lg:leading-[30px]  text-center lg:px-[150px] px-8 '>
     Basados en los siguientes valores nos comprometemos a seguir siendo un referente en seguridad y protección para aquellos que confían en nosotros.
     </p>
   
@@ -27,7 +27,7 @@ function Valores() {
         />
         <ValoresCard
         icono={'/assets/icons/compromiso.png'}
-        titulo={'Compromiso con'}
+        titulo={'Compromiso y'}
         parrafo={'Excelencia'}
         texto={"Buscamos la excelencia en cada aspecto de nuestro trabajo, desde la selección y formación de nuestro equipo hasta la implementación de tecnología, con el objetivo de superar expectativas y establecer estándares de calidad excepcionales en todos nuestros servicios."}
         />
