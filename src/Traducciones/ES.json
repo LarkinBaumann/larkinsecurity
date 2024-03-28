@@ -1,43 +1,35 @@
 {
-  "hero": {
-    "titulos": [
-      "Private",
-      "Real",
-      "Investments &",
-      "Oil & Gas",
-      "Gold &"
-    ],
-    "titulos2": [
-      "Security",
-      "Estate",
-      "Finances",
-      "Industry",
-      "Mining"
-    ],
-    "descripcion": [
-      "Proporcionamos tecnología y servicios personalizados para proteger tus activos más valiosos, desde sistemas de vigilancia hasta protocolos de respuesta rápida, asegurando tu tranquilidad y protección en cada paso.",
-      "Explora propiedades inmobiliarias con tecnología de vanguardia. Te ofrecemos una experiencia única, confía en nuestra experiencia  para una búsqueda inmobiliaria eficiente y efectiva.",
-      "Potencia tus inversiones con nuestra gestión financiera experta. Confía en nuestro equipo para optimizar tu cartera y asegurar un futuro financiero sólido.",
-      "Descubre cómo nuestra empresa líder en la industria de petróleo y gas ofrece soluciones integrales para tus proyectos. Ofrecemos resultados excepcionales adaptados a tus necesidades.",
-      "Desde la compra hasta la venta, gestionamos todo el proceso con transparencia y eficiencia, asegurando los más altos estándares de calidad y cumplimiento."
-    ]
+  "heroInicio":{
+    "titulo":"Piense en sus Negocios,",
+    "accent":"Nosotros en tu Seguridad"
   },
-  "acerca": {
-    "titulo1": "25",
-    "complemento1":"+",
-    "descripcion1": "Años de experiencia",
-    "titulo2": "5",
-    "complemento2":"K+",
-    "descripcion2": "Clientes satisfechos",
-    "titulo3": "50",
-    "complemento3":"+",
-    "descripcion3": "Certificaciones",
-    "titulo4": "200",
-    "complemento4":"+",
-    "descripcion4": "Colaboraciones ",
-    "header": "Potenciando Diversas Empresas,",
-    "accent": "Uniendo Éxitos.",
-    "paragraph": "Somos un corporativo diversificado, abarcando industrias clave como bienes raíces, seguridad privada, petróleo y gas, inversiones y gestión financiera. Con enfoque integrador y compromiso con la excelencia, impulsamos el éxito de cada una de nuestras empresas. Nuestro equipo apasionado y profesional se dedica a la innovación y calidad en todo momento."
+  "heroAcerca":{
+    "titulo1":"Tu seguridad es",
+    "accent1":"nuestra misión;",
+    "titulo2":"Tu tranquilidad,",
+    "accent2":"nuestra garantía,"
+  },
+  "heroServicios":{
+    "titulo":"Descubre cómo nuestros servicios pueden salvaguardar tu",
+    "accent":"tranquilidad y patrimonio",
+    "button":"Ver más"
+  },
+  "acercaInicio":{
+    "titulo":"Garantizamos tu tranquilidad con seguridad de",
+    "accent":"primera calidad",
+    "paragraph":"Nuestro equipo altamente capacitado y comprometido está dedicado a salvaguardar tu entorno, con una amplia gama de soluciones adaptadas a tus necesidades específicas, nos aseguramos de que puedas concentrarte en lo importante, mientras nosotros nos encargamos de tu seguridad.",
+    "button":"Servicios"
+  },
+  "quienesInicio":{
+    "escudoHeader1":"Visión global",
+    "escudoParagraph1":"e innovacón",
+    "escudoHeader2":"Compromiso con",
+    "escudoParagraph2":"la excelencia",
+    "escudoHeader3":"Integridad y",
+    "escudoParagraph3":"confianza",
+    "header":"¿Quiénes",
+    "accents":"somos?",
+    "paragraph":"Somos más que un proveedor de seguridad, somos tu socio en la protección de lo que más valoras. Confía en nosotros para garantizar tu tranquilidad y seguridad en todo momento."
   },
   "servicio": {
     "header": "Tus Socios en Todo México:",
@@ -53,6 +45,30 @@
     "titulo3": "Ubicación",
     "titulo4": "Weibo",
     "titulo5": "Wechat"
+  },
+  "acercaDe":{
+    "header":"Acerca De",
+    "paragraph":"Desde nuestra fundación en 1997,",
+    "accent":"LARKIN BAUMANN - Specialized Private Security Services",
+    "paragraph2":"ha sido pionera en la prestación de servicios de seguridad privada de vanguardia. Iniciamos nuestra travesía con la firme convicción de establecer estándares impecables en la protección de personas y propiedades. A lo largo de los años, hemos ganado la confianza de clientes en México y en todo el mundo, gracias a nuestra dedicación a la excelencia y nuestro compromiso con la seguridad.",
+    "button":"Servicios",
+    "mision":"Misión",
+    "paragraphMision":"En Larkin Baumann, buscamos satisfacer las necesidades de nuestros clientes, ofreciendo soluciones de seguridad personalizadas que se adaptan a sus requerimientos específicos con servicios de alta calidad, integridad y confidencialidad.",
+    "vision":"Visión",
+    "paragraphVision":"Buscamos ser líderes de las compañías de servicios de seguridad privada, con la mayor rentabilidad sostenida donde los mejores aspiren a trabajar, además de ser reconocidos como el estándar de excelencia en la industria de servicios de seguridad privada gracias a la innovación continua, la adopción de las últimas tecnologías y la excelencia de nuestro servicio al cliente."
+  },
+  "valores":{
+"header":"Valores",
+"paragraph":"Basados en los siguientes valores nos comprometemos a seguir siendo un referente en seguridad y protección para aquellos que confían en nosotros.",
+"valorCardHeader1":"Visión global e",
+"valorCardHeader1-2":"Innovacion",
+"valorCardParagraph":"Nos impulsamos hacia nuevas ideas y enfoques para abordar los desafíos de seguridad en un mundo cambiante. Estamos comprometidos con la innovación y la adopción de tecnologías emergentes para adaptarnos rápidamente a las necesidades globales de seguridad.",
+"valorCardHeader2":"Compromiso y",
+"valorCardHeader2-2":"Excelencia",
+"valorCardParagraph2":"Buscamos la excelencia en cada aspecto de nuestro trabajo, desde la selección y formación de nuestro equipo hasta la implementación de tecnología, con el objetivo de superar expectativas y establecer estándares de calidad excepcionales en todos nuestros servicios.",
+"valorCardHeader3":"Integridad y",
+"valorCardHeader3-2":"Confianza",
+"valorCardParagraph3":"Nos comprometemos a actuar con honestidad, transparencia y ética en todas nuestras interacciones. Nuestros clientes confían en nosotros para proteger lo que más valoran. En cada servicio nuestro objetivo es mantener esa confianza con integridad y excelencia constante."
   },
   "navbar": {
     "link1": "Inicio",
@@ -110,6 +126,11 @@
       "descripcion": "Nuestro servicio se centra en descubrir y documentar irregularidades financieras o fraudes, utilizando técnicas forenses avanzadas.Ofrecemos detección temprana de fraudes, protección de activos, cumplimiento normativo, reconstrucción de eventos y garantía de confidencialidad. Preserva la integridad y reputación de tu empresa."
     }
   ],
+  "elige":{
+    "header":"Elige nuestros",
+    "accent":"servicios",
+    "paragraph":"Nuestros servicios están respaldados por años de experiencia y dedicación. Nos esforzamos por ofrecerte lo mejor en todo momento. Confía en nosotros para brindarte lo mejor en seguridad. ¡Haz la elección inteligente y elige nuestros  servicios hoy mismo!"
+  },
   "empresaBoton": "Ir a sitio web"
 }
   
