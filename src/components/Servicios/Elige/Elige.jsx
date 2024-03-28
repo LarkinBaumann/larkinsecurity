@@ -1,10 +1,14 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useContext } from 'react'
 import ShadowTop from './Shadows/ShadowTop'
 import ShadowBottom from './Shadows/ShadowBottom'
 import ShadowTopLg from './Shadows/ShadowTopLg'
+import { AppContext } from '@/Context/AppContext'
 
 function Elige() {
+
+  const {traduccion} = useContext(AppContext)
+
   return (
     <div className='w-full h-[700px] flex flex-col items-center justify-center text-white px-4 relative '>
       <ShadowTop/>
@@ -22,7 +26,7 @@ function Elige() {
             </div>
             <div className='lg:w-full flex flex-col gap-[10px] px-16 lg:px-10'>
             <div className='text-[35px] md:text-[40px] xl:text-[74px] text-center lg:text-left font-extrabold font-header leading-[39px] xl:leading-[81px]'>
-                <h2>Elige nuestros <br/> <span className='tituloServicios3'>servicios</span></h2>
+                <h2>{traduccion.elige.header} <br/> <span className='tituloServicios3'>{traduccion.elige.accent}</span></h2>
                 
             </div>
             <p className='text-center lg:text-left font-paragraph text-[11px] md:text-[20px] font-medium leading-[18px] md:leading-[34px] '>

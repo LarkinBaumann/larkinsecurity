@@ -11,7 +11,8 @@
   },
   "heroServicios":{
     "titulo":"Descubre cómo nuestros servicios pueden salvaguardar tu",
-    "accent":"tranquilidad y patrimonio",
+    "accent":"tranquilidad",
+    "accent2":"patrimonio",
     "button":"Ver más"
   },
   "acercaInicio":{
