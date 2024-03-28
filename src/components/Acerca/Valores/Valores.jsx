@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ValoresCard from './ValoresCard'
 import Shadow from './Shadows/Shadow'
+import { AppContext } from '@/Context/AppContext'
 
 function Valores() {
+  const {traduccion} = useContext(AppContext)
+
   return (
     <div
     className='w-full h-[250px] md:h-[400px] lg:h-[900px] flex flex-col items-center justify-center text-white  mt-8 relative z-10 '
@@ -10,10 +13,10 @@ function Valores() {
       <Shadow/>
     <div className='flex flex-col justify-center items-center '>
     <h2 className='text-[25px] md:text-[40px] lg:text-[60px] font-header font-extrabold'>
-        Valores
+        {traduccion.valores.header}
     </h2>
     <p className='text-[11px] md:text-[20px]  font-paragraph font-semiblack leading-[15px]  md:leading-[34px] lg:leading-[30px]  text-center lg:px-[150px] px-8 '>
-    Basados en los siguientes valores nos comprometemos a seguir siendo un referente en seguridad y protección para aquellos que confían en nosotros.
+    {traduccion.valores.paragraph}
     </p>
   
     </div>
@@ -21,23 +24,21 @@ function Valores() {
     <div className='w-full flex flex-row justify-center items-center gap-[11px] mt-8'>
         <ValoresCard
         icono={'/assets/icons/innovacion2.png'}
-        titulo={'Visión Global e'}
-        parrafo={'Innovacion'}
-        texto = {"Nos impulsamos hacia nuevas ideas y enfoques para abordar los desafíos de seguridad en un mundo cambiante. Estamos comprometidos con la innovación y la adopción de tecnologías emergentes para adaptarnos rápidamente a las necesidades globales de seguridad."}
+        titulo={traduccion.valores.valorCardHeader1}
+        parrafo={traduccion.valores.valorCardHeader12}
+        texto = {traduccion.valores.valorCardParagraph1}
         />
         <ValoresCard
         icono={'/assets/icons/compromiso2.png'}
-        titulo={'Compromiso y'}
-        parrafo={'Excelencia'}
-        texto={"Buscamos la excelencia en cada aspecto de nuestro trabajo, desde la selección y formación de nuestro equipo hasta la implementación de tecnología, con el objetivo de superar expectativas y establecer estándares de calidad excepcionales en todos nuestros servicios."}
+        titulo={traduccion.valores.valorCardHeader2}
+        parrafo={traduccion.valores.valorCardHeader22}
+        texto = {traduccion.valores.valorCardParagraph2}
         />
         <ValoresCard
         icono={'/assets/icons/integridad2.png'}
-        titulo={'Integridad y'}
-        parrafo={'Confianza'}
-        texto={
-          "Nos comprometemos a actuar con honestidad, transparencia y ética en todas nuestras interacciones. Nuestros clientes confían en nosotros para proteger lo que más valoran. En cada servicio nuestro objetivo es mantener esa confianza con integridad y excelencia constante."
-        }
+        titulo={traduccion.valores.valorCardHeader3}
+        parrafo={traduccion.valores.valorCardHeader32}
+        texto = {traduccion.valores.valorCardParagraph3}
         />
     </div>
     </div>

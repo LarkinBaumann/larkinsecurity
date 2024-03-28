@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Button from '../../Button'
 import Image from 'next/image'
 import ShadowTop from './Shadows/ShadowTop'
+import { AppContext } from '@/Context/AppContext'
 
 function Acerca() {
+  const {traduccion} = useContext(AppContext)
   return (
     <div className='w-full h-full flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between relative lg:px-8 '>
       <ShadowTop/>
@@ -30,14 +32,14 @@ function Acerca() {
         </div>
         <div className='w-full lg:w-[50%] h-full flex flex-col items-center lg:items-start  justify-center  text-white text-center lg:text-left gap-[15px] px-2 md:pl-4 xl:px-10'>
             <h2 className='font-header text-[30px] md:text-[40px] font-extrabold leading-[32px] md:leading-[40px] w-[95%] lg:w-[482px] z-10  '>
-                Garantizamos tu tranquilidad con seguridad de <span className='titulo3'>primera calidad</span>
+                {traduccion.acercaInicio.titulo} <span className='titulo3'>{traduccion.acercaInicio.accent}</span>
             </h2>
             <p className='text-[13px] md:text-[20px] lg:text-[18px] md:leading-[34px] lg:w-[482px] font-paragraph leading-[22px] z-20 px-10 md:px-0 '>
-            Nuestro equipo altamente capacitado y comprometido está dedicado a salvaguardar tu entorno, con una amplia gama de soluciones adaptadas a tus necesidades específicas, nos aseguramos de que puedas concentrarte en lo importante, mientras nosotros nos encargamos de tu seguridad.
+            {traduccion.acercaInicio.paragraph}
             </p>
          
             <Button
-            text={"Servicios"}
+            text={traduccion.acercaInicio.button}
             />
            
         </div>

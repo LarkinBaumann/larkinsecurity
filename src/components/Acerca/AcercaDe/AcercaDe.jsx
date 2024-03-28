@@ -1,9 +1,13 @@
 import Button from "@/components/Button";
 import Image from "next/image";
-import React from "react";
+import React, { useContext } from "react";
 import ShadowTop from "./Shadows/ShadowTop";
+import { AppContext } from "@/Context/AppContext";
 
 function AcercaDe() {
+
+  const {traduccion} = useContext(AppContext)
+
   return (
     <div className="text-white w-full h-full flex flex-col relative">
       <ShadowTop/>
@@ -11,13 +15,13 @@ function AcercaDe() {
 {/* Primera parte */}
 <div className="w-full h-full flex flex-col lg:flex-row-reverse xl:items-center ">
       <div className=" w-full h-full flex flex-col items-center lg:items-start  gap-[18px] px-10 md:px-8 z-20">
-      <h2 className="text-[25px] md:text-[60px] font-header font-black">Acerca De</h2>
+      <h2 className="text-[25px] md:text-[60px] font-header font-black">{traduccion.acercaDe.header}</h2>
       <p className="text-center lg:text-left font-paragraph font-extrabold leading-[18px] md:leading-[34px]   text-[11px] md:text-[20px] ">
-      Desde nuestra fundación en 1997, <span className="text-[#55B0F0]"> LARKIN BAUMANN - Specialized Private Security Services </span>
-      ha sido pionera en la prestación de servicios de seguridad privada de vanguardia. Iniciamos nuestra travesía con la firme convicción de establecer estándares impecables en la protección de personas y propiedades. A lo largo de los años, hemos ganado la confianza de clientes en México y en todo el mundo, gracias a nuestra dedicación a la excelencia y nuestro compromiso con la seguridad.
+      {traduccion.acercaDe.paragraph} <span className="text-[#55B0F0]"> {traduccion.acercaDe.accent} </span>
+      {traduccion.acercaDe.paragraph2}
       </p>
       <Button
-      text={"Servicios"}
+      text={traduccion.acercaDe.button}
       />
       </div>
       <div className="w-full h-full flex flex-row justify-center  items-center relative">
@@ -30,15 +34,15 @@ function AcercaDe() {
 <div className="w-full h-full flex flex-col items-center lg:flex-row mt-4 lg:mt-8">
   <div className="w-full h-full flex flex-col lg:gap-[40px]  px-10 lg:pl-10 mb-4 lg:mb-0">
       <div className=" md:w-[530px] z-20">
-        <h2 className="w-full font-header text-[25px] md:text-[40px] font-extrabold">Misión</h2>
+        <h2 className="w-full font-header text-[25px] md:text-[40px] font-extrabold">{traduccion.acercaDe.mision}</h2>
         <p className=" text-[11px] md:text-[20px] font-extrabold leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-full">
-        En Larkin Baumann, buscamos satisfacer las necesidades de nuestros clientes, ofreciendo soluciones de seguridad personalizadas que se adaptan a sus requerimientos específicos con servicios de alta calidad, integridad y confidencialidad. 
+        {traduccion.acercaDe.paragraphMision}
         </p>
       </div>
       <div className="md:w-full text-right lg:text-left w-full flex flex-col items-end lg:items-start ">
-        <h2 className="font-header text-[25px] font-extrabold md:text-[40px] ">Visión</h2>
+        <h2 className="font-header text-[25px] font-extrabold md:text-[40px] ">{traduccion.acercaDe.vision}</h2>
         <p className="text-[11px] md:text-[20px] font-extrabold leading-[19px] md:leading-[34px] font-paragraph w-[225px] md:w-[530px]">
-        Buscamos ser líderes de las compañías de servicios de seguridad privada, con la mayor rentabilidad sostenida donde los mejores aspiren a trabajar, además de ser reconocidos como el estándar de excelencia en la industria de servicios de seguridad privada.
+        {traduccion.acercaDe.paragraphVision}
         </p>
       </div>
       </div>
