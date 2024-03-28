@@ -6,15 +6,23 @@ import ShadowTop from "./Shadows/ShadowTop";
 import ShadowTopLg from "./Shadows/ShadowTopLg";
 import ShadowQuienesLg from "./Shadows/ShadowQuienesLg";
 import { AppContext } from "@/Context/AppContext";
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
 
 
 function Quienes() {
 
   const {traduccion} = useContext(AppContext)
 
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Cambia a true si solo quieres que la animación se ejecute una vez
+  });
+
   
   return (
-    <div className="w-full h-[540px] lg:h-screen flex flex-col lg:flex-row-reverse justify-center items-center text-center lg:text-right text-white gap-[10px] px-4  relative">
+    <div className="w-full h-[540px] lg:h-screen flex flex-col lg:flex-row-reverse justify-center items-center text-center lg:text-right text-white gap-[10px] px-4  relative"
+    ref={ref}
+    >
       <ShadowTop/>
       <ShadowTopLg/>
       <div
@@ -50,18 +58,38 @@ function Quienes() {
       </div>
       
 
-      <div className="w-full h-full z-10 flex flex-col justify-center items-center px-4 md:px-8 ">
-      <h2 className="lg:w-[377px] font-header text-[40px] lg:text-[89px] font-extrabold lg:leading-[92px] z-10">
-        {traduccion.quienesInicio.header} <span className="titulo4">{traduccion.quienesInicio.accent} </span>
-      </h2>
-      <p className="lg:w-[400px] text-[13px] md:text-[20px] lg:text-[18px] leading-[22px] md:leading-[34px] lg:leading-[30px]  z-10">
-        {traduccion.quienesInicio.paragraph}
-      </p>
+      <motion.div 
       
-      <div className="z-0 lg:hidden mt-[9px]">
-      <Button text={"Nosotros"} />
-      </div>
-      </div>
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
+      transition={{ duration: 2 }}
+      className="w-full h-full z-10 flex flex-col justify-center items-center px-4 md:px-8 "
+    >
+      <motion.h2 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
+        transition={{ duration: 2, delay: 0.2 }}
+        className="lg:w-[377px] font-header text-[40px] lg:text-[89px] font-extrabold lg:leading-[92px] z-10"
+      >
+        {traduccion.quienesInicio.header} <span className="titulo4">{traduccion.quienesInicio.accent} </span>
+      </motion.h2>
+      <motion.p 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
+        transition={{ duration: 2, delay: 0.4 }}
+        className="lg:w-[400px] text-[13px] md:text-[20px] lg:text-[18px] leading-[22px] md:leading-[34px] lg:leading-[30px]  z-10"
+      >
+        {traduccion.quienesInicio.paragraph}
+      </motion.p>
+      <motion.div 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className="z-0 lg:hidden mt-[9px]"
+      >
+        <Button text={"Nosotros"} />
+      </motion.div>
+    </motion.div>
       <div className='hidden w-full h-full lg:flex flex-row justify-center lg:items-center z-10 '>
         <div className='h-[250px] lg:h-[350px]  flex flex-col justify-end relative lg:translate-x-[80px] lg:translate-y-[20px] 2xl:translate-y-[100px] '>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] lg:w-[140px] 2xl:w-[264px] h-[126px] lg:h-[140px] 2xl:h-[200px]' />

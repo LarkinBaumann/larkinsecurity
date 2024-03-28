@@ -59,30 +59,60 @@ const childVariants = {
 
 
   return (
-   <div className='w-full h-screen relative  '>
-    <div className='w-full h-full'>
-      
-
-        <Image src={"/assets/home/hero.png"}  layout='fill' objectFit='cover' quality={100}
-          priority alt='hero image' className='w-full h-full lg:hidden object-fill lg:object-cover lg:object-center md:object-bottom' />
-
-
-        <Image src={"/assets/home/hero2.png"}  fill={true}
+    <motion.div
+      className='w-full h-screen relative'
+      initial='hidden'
+      animate='visible'
+      variants={containerVariants}
+    >
+      <div className='w-full h-full'>
+        <motion.img
+          src={"/assets/home/hero.png"}
+          layout='fill'
+          objectFit='cover'
           quality={100}
-          priority alt='hero image' className='hidden lg:block w-full h-full object-fill lg:object-cover lg:object-center md:object-bottom' />
-   </div>
-   <div className='w-full h-full flex flex-col justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] md:-translate-y-[150px] lg:-translate-y-[80px] 2xl:-translate-y-[200px] z-10'>
-    <Image src="/assets/logoHero.png" width={200} height={200} alt='logo holding' className='md:w-[550px] lg:w-[350px] 2xl:w-[500px]'/>
-    <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px] text-white'>
-      {traduccion.heroInicio.titulo}
-    </h2>
-    <h2 className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px]  text-[#a2b3ee]'>
-    {traduccion.heroInicio.accent}
-    </h2>
+          priority
+          alt='hero image'
+          className='w-full h-full lg:hidden object-fill lg:object-cover lg:object-center md:object-bottom'
+          variants={childVariants}
+        />
 
-   </div>
-    </div>
-  )
+        <motion.img
+          src={"/assets/home/hero2.png"}
+          fill={true}
+          quality={100}
+          priority
+          alt='hero image'
+          className='hidden lg:block w-full h-full object-fill lg:object-cover lg:object-center md:object-bottom'
+          variants={childVariants}
+        />
+      </div>
+      <motion.div
+        className='w-full h-full flex flex-col justify-center items-center absolute top-0 gap-[35px] md:gap-[20px] md:-translate-y-[150px] lg:-translate-y-[80px] 2xl:-translate-y-[200px] z-10'
+        variants={childVariants}
+      >
+        <motion.img
+          src="/assets/logoHero.png"
+          width={200}
+          height={200}
+          alt='logo holding'
+          className='md:w-[550px] lg:w-[350px] 2xl:w-[500px]'
+        />
+        <motion.h2
+          className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px] text-white'
+          variants={childVariants}
+        >
+          {traduccion.heroInicio.titulo}
+        </motion.h2>
+        <motion.h2
+          className='text-[50px] md:text-[60px] lg:text-[66px] text-center font-header font-semibold leading-[51px]  text-[#a2b3ee]'
+          variants={childVariants}
+        >
+          {traduccion.heroInicio.accent}
+        </motion.h2>
+      </motion.div>
+    </motion.div>
+  );
 }
 
 export default Hero
