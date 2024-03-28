@@ -3,10 +3,22 @@ import Image from "next/image";
 import React, { useContext } from "react";
 import ShadowTop from "./Shadows/ShadowTop";
 import { AppContext } from "@/Context/AppContext";
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function AcercaDe() {
 
   const {traduccion} = useContext(AppContext)
+
+  const textVariants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0 },
+  };
+  
+  const imageVariants = {
+    hidden: { opacity: 0, x: 100 },
+    visible: { opacity: 1, x: 0 },
+  };
 
   return (
     <div className="text-white w-full h-full flex flex-col relative">
