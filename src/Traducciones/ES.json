@@ -130,7 +130,8 @@
   "elige":{
     "header":"Elige nuestros",
     "accent":"servicios",
-    "paragraph":"Nuestros servicios están respaldados por años de experiencia y dedicación. Nos esforzamos por ofrecerte lo mejor en todo momento. Confía en nosotros para brindarte lo mejor en seguridad. ¡Haz la elección inteligente y elige nuestros  servicios hoy mismo!"
+    "paragraph":"Nuestros servicios están respaldados por años de experiencia y dedicación. Nos esforzamos por ofrecerte lo mejor en todo momento. Confía en nosotros para brindarte lo mejor en seguridad.",
+    "paragraph2":"¡Haz la elección inteligente y elige nuestros  servicios hoy mismo!"
   },
   "empresaBoton": "Ir a sitio web"
 }

@@ -1,7 +1,11 @@
+import { AppContext } from '@/Context/AppContext'
 import Image from 'next/image'
-import React from 'react'
+import React, { useContext } from 'react'
 
 function Mapa() {
+
+  const {traduccion} = useContext(AppContext)
+
   return (
     <div className='w-full h-full px-4 lg:px-14   '>
 
@@ -10,15 +14,15 @@ function Mapa() {
     '>
         <div className='w-[90%] md:h-[100px] lg:w-[50%] xl:w-[60%] lg:h-[260px]  flex flex-col z-10  '>
         <h2 className='h-full font-header text-[22px] md:text-[40px] font-extrabold leading-[25px] md:leading-[40px] lg:leading-[43px]   '>
-            Tus Socios en Todo México:
+            {traduccion.servicio.header}
             <br/>
             <span className='titulo5 '>
-            Servicios a lo Largo y Ancho del País
+            {traduccion.servicio.accent}
             </span>
         </h2>
 
         <div className='w-[90%] xl:w-[490px] hidden lg:flex flex-row justify-center font-paragraph text-[12px] md:text-[20px] lg:text-[18px] leading-[20px] md:leading-[34px] lg:leading-[30px] '>
-        Cobertura en toda la República Mexicana,  nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país.
+        {traduccion.servicio.paragraph}
         </div>
         
         </div>

@@ -30,9 +30,9 @@ function Elige() {
                 
             </div>
             <p className='text-center lg:text-left font-paragraph text-[11px] md:text-[20px] font-medium leading-[18px] md:leading-[34px] '>
-            Nuestros servicios están respaldados por años de experiencia y dedicación. Nos esforzamos por ofrecerte lo mejor en todo momento. Confía en nosotros para brindarte lo mejor en seguridad. 
+            {traduccion.elige.paragraph}
             <br/>
-¡Haz la elección inteligente y elige nuestros  servicios hoy mismo!
+            {traduccion.elige.paragraph2}
             </p>
 
         </div>
