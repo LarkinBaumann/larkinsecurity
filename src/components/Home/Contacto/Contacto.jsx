@@ -97,7 +97,7 @@ function Contacto() {
         </span>
       </motion.h2>
       <motion.p
-        className="w-[289px] lg:w-[930px] hidden lg:flex text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px]"
+        className="w-[289px] lg:w-[930px] hidden lg:flex text-white text-center text-[12px] lg:text-[25px] font-paragraph leading-[20px] lg:leading-[43px] z-20"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variantsText}
@@ -106,7 +106,7 @@ function Contacto() {
       </motion.p>
       <motion.div
         ref={ref}
-        className="hidden w-[930px] lg:flex flex-row justify-around items-center"
+        className="hidden w-[930px] lg:flex flex-row justify-around items-center cursor-pointer "
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={containerVariants}
