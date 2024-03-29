@@ -45,7 +45,7 @@
     "titulo2": "Teléfono",
     "titulo3": "Ubicación",
     "titulo4": "Weibo",
-    "titulo5": "Wechat"
+    "titulo5": "Wechat" 
   },
   "acercaDe":{
     "header":"Acerca De",
@@ -80,7 +80,7 @@
     "titulo":"Contacto"
   },
   "footer": {
-    "titulo1": "Dirección",
+    "titulo1": "Ubicación",
     "titulo2": "Contacto"
   },
   "empresas": [
