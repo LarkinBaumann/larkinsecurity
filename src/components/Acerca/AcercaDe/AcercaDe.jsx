@@ -53,6 +53,7 @@ function AcercaDe() {
         animate={inView ? 'visible' : 'hidden'}
         transition={{ duration: 0.5 }}
       >
+        <Image src="/assets/acerca/acercade/bmwFondo.svg" width={1000} height={1000} alt="Acerca De" className="absolute " />
         <Image src="/assets/acerca/acercade/bmw2.png" width={1000} height={1000} alt="Acerca De" className="w-[202px] h-[239px] md:h-[400px] md:w-[500px] lg:h-[604px] lg:w-[539px] xl:w-full xl:h-[752px] 2xl:w-[760px] 2xl:h-[852px] md:object-contain flex flex-col rotate-[-7deg] lg:rotate-0  " />
       </motion.div>
     </motion.div>
