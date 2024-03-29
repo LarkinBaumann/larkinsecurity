@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
+
 function ValoresCard({titulo, parrafo,icono, texto}) {
   return (
     <div className={`w-[103px] md:w-[150px] lg:w-[359px] h-[108px] md:h-[170px] lg:h-[494px] rounded-[6px] border-[0.3px] border-[#55B0F0] bg-[#0E1921] flex flex-col gap-[4px] justify-center items-center lg:rounded-[18px]

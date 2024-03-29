@@ -81,7 +81,7 @@ function AcercaDe() {
       <motion.div className="lg:w-full flex flex-row justify-center"
         variants={imageVariants}
         initial="hidden"
-        animate={inView ? 'visible' : 'hidden'}
+        animate={inView2 ? 'visible' : 'hidden'}
         transition={{ duration: 0.5 }}
       >
         <div className="w-[220px] lg:w-[400px] xl:w-[500px] h-[220px] lg:h-[400px] xl:h-[500px] z-20">

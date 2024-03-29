@@ -9,6 +9,8 @@ function Elige() {
 
   const {traduccion} = useContext(AppContext)
 
+  
+
   return (
     <div className='w-full h-[700px] flex flex-col items-center justify-center text-white px-4 relative '>
       <ShadowTop/>
