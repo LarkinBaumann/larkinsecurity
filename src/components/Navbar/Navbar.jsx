@@ -208,10 +208,7 @@ function Navbar({}) {
             <button
               className="w-130 h-49 px-8 py-2 flex justify-center items-center gap-8 flex-shrink-0 bg-[#005E93]"
               onClick={() => {
-                document
-                  .getElementById("Contacto")
-                  .scrollIntoView({ behavior: "smooth" });
-              }}
+                router.push("/#Contacto")}}
             >
               {traduccion.contactoNavbar.titulo}
             </button>
