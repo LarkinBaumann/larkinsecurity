@@ -6,6 +6,7 @@
   import ShadowTop from './Shadows/ShadowTop'
   import { AppContext } from '@/Context/AppContext'
   import { useInView } from 'react-intersection-observer';
+import Link from 'next/link'
 
 
   function Acerca() {
@@ -63,9 +64,11 @@
                 animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
+                <Link href='/Servicios'>
                 <Button
                   text={traduccion.acercaInicio.button}
-                />
+                  />
+                  </Link>
               </motion.div>
              
           </div>

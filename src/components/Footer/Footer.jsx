@@ -57,9 +57,9 @@ function Footer() {
       <ShadowFooter
       inView={inView}
       />
-      <ShadowFooterSm
+      {/* <ShadowFooterSm
       inView={inView}
-      />
+      /> */}
       <div className="w-full h-[327px] flex flex-row justify-center lg:justify-between items-center text-white 
       max-w-[1444px] mx-auto min-w-sm lg:px-6  ">
         <div className="w-full flex flex-col lg:flex-row items-center lf:items-start gap-4 ">

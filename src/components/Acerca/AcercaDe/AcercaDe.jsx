@@ -5,6 +5,7 @@ import ShadowTop from "./Shadows/ShadowTop";
 import { AppContext } from "@/Context/AppContext";
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Link from "next/link";
 
 function AcercaDe() {
 
@@ -43,9 +44,12 @@ function AcercaDe() {
           {traduccion.acercaDe.paragraph} <span className="text-[#55B0F0]"> {traduccion.acercaDe.accent} </span>
           {traduccion.acercaDe.paragraph2}
         </p>
+        <Link href="/Servicios">
+
         <Button
           text={traduccion.acercaDe.button}
-        />
+          />
+          </Link>
       </motion.div>
       <motion.div className="w-full h-full flex flex-row justify-center  items-center relative"
         variants={imageVariants}

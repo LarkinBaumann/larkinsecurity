@@ -8,6 +8,7 @@ import ShadowQuienesLg from "./Shadows/ShadowQuienesLg";
 import { AppContext } from "@/Context/AppContext";
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import Link from "next/link";
 
 
 function Quienes() {
@@ -53,7 +54,7 @@ function Quienes() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
       transition={{ duration: 2 }}
-      className="w-full h-full z-10 flex flex-col justify-center items-center px-4 md:px-8 "
+      className="w-full h-full z-20 flex flex-col justify-center items-center px-4 md:px-8 "
     >
       <motion.h2 
         initial={{ opacity: 0, y: -20 }}
@@ -75,9 +76,11 @@ function Quienes() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -20 }}
         transition={{ duration: 0.5, delay: 0.6 }}
-        className="z-0 lg:hidden mt-[9px]"
+        className="z-50 lg:hidden mt-[9px]"
       >
+        <Link href="/Acerca" >
         <Button text={"Nosotros"} />
+        </Link>
       </motion.div>
     </motion.div>
       <div className='hidden w-full h-full lg:flex flex-row justify-center lg:items-center z-10 '>

@@ -224,7 +224,7 @@ function Contacto() {
       </motion.div>
       </div>
    
-    <div className='text-white w-full h-full flex lg:hidden flex-col items-center justify-center gap-[9px] my-[44px] relative'>
+    <div className='text-white w-full h-full flex lg:hidden flex-col items-center justify-center gap-[9px] my-[44px] relative '>
       <ShadowTop/>
       <ShadowBottom/>
       <div className='w-[90%] flex justify-center items-center z-20 '>
@@ -242,35 +242,51 @@ function Contacto() {
       </div>
       <div className='w-full flex flex-col h-full gap-[17px] items-center'>
 
-      <div className='w-[90%] flex flex-row justify-center items-center gap-[14px] mt-4'>
+      <div className='w-[90%] flex flex-row justify-center items-center gap-[14px] mt-4  '>
+        <a href='mailto:info@corporativolb.com' className=' contactoCard'>
         <ContactCard
         icono={'/assets/icons/email.svg'}
         titulo={'E-mail'}
-        parrafo={"hello@relume.io"}
+        parrafo={"info@corporativolb.com"}
         />
+        </a>
+        <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
         <ContactCard
         icono={'/assets/icons/whatsapp.svg'}
         titulo={'Teléfono'}
-        parrafo={"+52 5523 5652"}
-        />
+        parrafo={"+52 55 1689 1448"}
+        /> 
+        </a>   
+        <a href="https://maps.app.goo.gl/zUC11owWN5uMZD4e7" target="_blank">
         <ContactCard
         icono={'/assets/icons/ubicacion.svg'}
         titulo={'Ubicación'}
-        parrafo={"123 Sample St,"}
+        parrafo={"Miguel Cervantes, CDMX."}
         />
+        </a>
 
       </div>
       <div className='w-[90%] flex flex-row justify-center items-center gap-[14px]'>
+      <a
+              href="https://weibo.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+      
       <ContactCard
-        icono={'/assets/icons/email.svg'}
-        titulo={'E-mail'}
-        parrafo={"hello@relume.io"}
+        icono={'/assets/icons/weibo.svg'}
+        titulo={'Weibo'}
+        parrafo={"+52 55 1689 1448"}
         />
+        </a>
+        <a href="tel:+525516891448">
+
         <ContactCard
-        icono={'/assets/icons/whatsapp.svg'}
-        titulo={'Teléfono'}
-        parrafo={"+52 5523 5652"}
+        icono={'/assets/icons/weixin.svg'}
+        titulo={'WeChat'}
+        parrafo={"+52 55 1689 1448"}
         />
+        </a>
       </div>
         </div>
 
