@@ -39,7 +39,7 @@
             </div>
           </div>
           </div>
-          <div className='w-full lg:w-[50%] h-full flex flex-col items-center lg:items-start  justify-center  text-white text-center lg:text-left gap-[15px] px-2 md:pl-4 xl:px-10'>
+          <div className='w-full lg:w-[50%] h-full flex flex-col items-center lg:items-start  justify-center  text-white text-center lg:text-left gap-[15px] px-2 md:pl-4 xl:px-10 z-20'>
               <motion.h2 
                 ref={ref}
                 initial={{ opacity: 0, y: -20 }}

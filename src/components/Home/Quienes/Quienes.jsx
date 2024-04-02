@@ -30,7 +30,7 @@ function Quienes() {
         />
 
       <div className="w-full h-full flex flex-col justify-between absolute ">
-        <div className="w-full h-[40%] md:h-[50%] lg:h-[60%] 2xl:h-[700px] z-0">
+        <div className="w-full h-full 2xl:h-[1400px] z-0">
           <Image
             src="/assets/home/quienes/escoltas2.png"
             width={2000}
@@ -39,20 +39,10 @@ function Quienes() {
             className="-z-10 w-full h-full object-cover md:object-top lg:object-cover"
           />
         </div>
-        <div className="w-full h-[40%] md:h-[50%] 2xl:-[601px] z-0">
-          <Image
-            src="/assets/home/quienes/helicoptero2.png"
-            alt="Helicoptero"
-            width={4000}
-            height={4000}
-            quality={100}
-            className="-z-10  w-full h-full object-cover"
-          />
-        </div>
+      
       </div>
       <div className="w-full h-full absolute flex flex-col justify-center items-center">
         <div className="z-0">
-        <ShadowQuienes/>
       <ShadowQuienesLg/>
         </div>
       </div>
