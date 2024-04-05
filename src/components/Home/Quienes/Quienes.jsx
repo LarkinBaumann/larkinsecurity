@@ -95,7 +95,7 @@ function Quienes() {
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000}
           className='w-[182px] h-[197px] lg:w-[258px] lg:h-[266px] 2xl:w-[404px] 2xl:h-[350px] '
           />
-          <div className='flex flex-col text-center w-full absolute top-[35%] lg:top-[45%] xl:top-[47%] text-[14px] lg:text-[18px] 2xl:text-[28px] font-paragraph leading-[15px] lg:leading-[20px] 2xl:leading-[33px]'>
+          <div className='flex flex-col text-center w-full absolute top-[35%] lg:top-[45%] xl:top-[45%] text-[14px] lg:text-[18px] 2xl:text-[28px] font-paragraph leading-[15px] lg:leading-[20px] 2xl:leading-[33px]'>
           <p className='font-extrabold'>{traduccion.quienesInicio.escudoHeader2}</p>
           <p className='font-light'>{traduccion.quienesInicio.escudoParagraph2}</p>
           </div>
