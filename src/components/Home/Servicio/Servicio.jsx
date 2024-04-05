@@ -1,11 +1,13 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useContext } from 'react'
 import Mapa from './Mapa'
 import ShadowTop from './Shadows/ShadowTop'
 import ShadowMapa from './Shadows/ShadowMapa'
 import ShadowTopLg from './Shadows/ShadowTopLg'
+import { AppContext } from '@/Context/AppContext'
 
 function Servicio() {
+  const{traduccion} = useContext(AppContext)
   return (
     <div className='text-white w-full h-full flex  flex-col gap-[30px] relative'>
       <Image src="/assets/home/servicios/fondo2.png"  width={4000} height={4000} className='w-full h-[350px] absolute ' alt='fondo servicio'/>
@@ -15,8 +17,8 @@ function Servicio() {
         <div className='h-[250px] flex flex-col justify-end relative '>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] h-[126px]' />
           <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>
-          <p className='font-extrabold'>Visión global</p>
-          <p className='font-light'>e innovación</p>
+          <p className='font-extrabold'>{traduccion.quienesInicio.escudoHeader1}</p>
+          <p className='font-light'>{traduccion.quienesInicio.escudoParagraph1}</p>
           </div>
         </div>
         <div className='h-full flex flex-col justify-start relative z-10'>
@@ -24,8 +26,8 @@ function Servicio() {
           className='w-[182px] h-[197px]'
           />
           <div className='flex flex-col text-center w-full absolute top-[35%] text-[14px] font-paragraph leading-[15px]'>
-          <p className='font-extrabold'>Compromiso con</p>
-          <p className='font-light'>la excelecia</p>
+          <p className='font-extrabold'>{traduccion.quienesInicio.escudoHeader2}</p>
+          <p className='font-light'>{traduccion.quienesInicio.escudoParagraph2}</p>
           </div>
         </div>
         <div className=' flex flex-col justify-end relative'>
@@ -33,8 +35,8 @@ function Servicio() {
           className='w-[123px] h-[126px]'
           />
            <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>
-          <p className='font-extrabold'>Integridad y</p>
-          <p className='font-light'>Confianza</p>
+          <p className='font-extrabold'>{traduccion.quienesInicio.escudoHeader3}</p>
+          <p className='font-light'>{traduccion.quienesInicio.escudoParagraph3}</p>
           </div>
         </div>
 

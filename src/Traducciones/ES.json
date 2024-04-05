@@ -7,7 +7,7 @@
     "titulo1":"Tu seguridad es",
     "accent1":"nuestra misión;",
     "titulo2":"Tu tranquilidad,",
-    "accent2":"nuestra garantía,"
+    "accent2":"nuestra garantía."
   },
   "heroServicios":{
     "titulo":"Descubre cómo nuestros servicios pueden salvaguardar tu",
@@ -23,7 +23,7 @@
   },
   "quienesInicio":{
     "escudoHeader1":"Visión global",
-    "escudoParagraph1":"e innovacón",
+    "escudoParagraph1":"e innovación",
     "escudoHeader2":"Compromiso con",
     "escudoParagraph2":"la excelencia",
     "escudoHeader3":"Integridad y",
@@ -35,7 +35,8 @@
   "servicio": {
     "header": "Tus Socios en Todo México:",
     "accent": "Servicios a lo Largo y Ancho del País",
-    "paragraph": "Cobertura en toda la República Mexicana, nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país."
+    "paragraph": "Cobertura en toda la República Mexicana, nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país.",
+    "title": "Servicios"
   },
   "contacto": {
     "header": "Inicia tu camino, hoy mismo.",

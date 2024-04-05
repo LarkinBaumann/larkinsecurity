@@ -67,7 +67,7 @@ function Mapa() {
           transition={{ duration: 0.5, delay: 1.2 }}
           className='w-[90%] flex lg:hidden flex-row justify-center font-paragraph text-[12px] md:text-[20px] leading-[20px] md:leading-[34px]'
         >
-          Cobertura en toda la República Mexicana,  nuestro equipo está listo para atender tus necesidades donde sea que estés. Confía en nosotros para proporcionarte soluciones confiables y de calidad en todo el país.
+          {traduccion.servicio.paragraph}
         </motion.div>
       </motion.div>
     </motion.div>
