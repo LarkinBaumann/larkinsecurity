@@ -79,7 +79,7 @@ function Quienes() {
         className="z-50 lg:hidden mt-[9px]"
       >
         <Link href="/Acerca" >
-        <Button text={"Nosotros"} />
+        <Button text={traduccion.quienesInicio.button} />
         </Link>
       </motion.div>
     </motion.div>
