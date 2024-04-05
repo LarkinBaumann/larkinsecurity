@@ -229,15 +229,15 @@ function Contacto() {
       <ShadowBottom/>
       <div className='w-[90%] flex justify-center items-center z-20 '>
       <h2 className='font-header text-[27px] text-center font-extrabold leading-[28px] '>
-      Inicia tu camino, hoy mismo. <span className='titulo6'>
-        Contáctanos
+      {traduccion.contacto.header} <span className='titulo6'> 
+      {traduccion.contacto.accent}
       </span>
       </h2>
       </div>
       <div className='w-[68%] flex justify-center items-center z-20'>
 
       <p className='text-center text-[12px] md:text-[20px] leading-[20px] md:leading-[34px] '>
-      En nuestro equipo, estamos aquí para ayudarte a dar el primer paso hacia tus metas. Te ofrecemos el impulso que necesitas para iniciar este emocionante camino hacia el éxito.
+      {traduccion.contacto.paragraph}
       </p>
       </div>
       <div className='w-full flex flex-col h-full gap-[17px] items-center'>
@@ -246,21 +246,21 @@ function Contacto() {
         <a href='mailto:info@corporativolb.com' className=' contactoCard'>
         <ContactCard
         icono={'/assets/icons/email.svg'}
-        titulo={'E-mail'}
+        titulo={traduccion.contacto.titulo}
         parrafo={"info@corporativolb.com"}
         />
         </a>
         <a href="https://wa.me/525516891448?text=Hola!%20Quiero%20mas%20informacion">
         <ContactCard
         icono={'/assets/icons/whatsapp.svg'}
-        titulo={'Teléfono'}
+        titulo={traduccion.contacto.titulo2}
         parrafo={"+52 55 1689 1448"}
         /> 
         </a>   
         <a href="https://maps.app.goo.gl/zUC11owWN5uMZD4e7" target="_blank">
         <ContactCard
         icono={'/assets/icons/ubicacion.svg'}
-        titulo={'Ubicación'}
+        titulo={traduccion.contacto.titulo3}
         parrafo={"Miguel Cervantes, CDMX."}
         />
         </a>

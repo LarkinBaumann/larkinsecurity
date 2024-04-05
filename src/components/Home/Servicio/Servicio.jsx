@@ -16,7 +16,7 @@ function Servicio() {
       <div className='w-full h-full flex lg:hidden flex-row justify-center px-4 '>
         <div className='h-[250px] flex flex-col justify-end relative '>
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} className='w-[123px] h-[126px]' />
-          <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>
+          <div className='flex flex-col text-center w-full absolute top-[65%] text-[9px] sm:text-[12px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>{traduccion.quienesInicio.escudoHeader1}</p>
           <p className='font-light'>{traduccion.quienesInicio.escudoParagraph1}</p>
           </div>
@@ -25,7 +25,7 @@ function Servicio() {
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000}
           className='w-[182px] h-[197px]'
           />
-          <div className='flex flex-col text-center w-full absolute top-[35%] text-[14px] font-paragraph leading-[15px]'>
+          <div className='flex flex-col text-center w-full absolute top-[35%] text-[10px] sm:text-[14px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>{traduccion.quienesInicio.escudoHeader2}</p>
           <p className='font-light'>{traduccion.quienesInicio.escudoParagraph2}</p>
           </div>
@@ -34,7 +34,7 @@ function Servicio() {
           <Image src="/assets/home/servicio/escudo1.png" alt="Escudo" width={1000} height={1000} 
           className='w-[123px] h-[126px]'
           />
-           <div className='flex flex-col text-center w-full absolute top-[65%] text-[12px] font-paragraph leading-[15px]'>
+           <div className='flex flex-col text-center w-full absolute top-[65%] text-[9px] sm:text-[12px] font-paragraph leading-[15px]'>
           <p className='font-extrabold'>{traduccion.quienesInicio.escudoHeader3}</p>
           <p className='font-light'>{traduccion.quienesInicio.escudoParagraph3}</p>
           </div>
