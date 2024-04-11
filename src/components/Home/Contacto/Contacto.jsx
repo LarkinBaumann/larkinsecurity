@@ -90,7 +90,7 @@ function Contacto() {
         {traduccion.contacto.header}
         <br className="" />
         <span
-          className="titulo2"
+          className="text-[#a2b3ee]"
          
         >
           {traduccion.contacto.accent}
