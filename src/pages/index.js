@@ -18,12 +18,12 @@ export default function Home() {
     <Head>
     <meta name="theme-color" content="#050409"/>
     <title>Larkin Baumann Security.</title>
-    <meta name="description" content="Descubre Larkin Baumann Holding, empresa líder en diversas industrias a nivel global desde 1997. Nuestra holding se especializa en la creación y gestión de empresas en sectores que van desde la seguridad privada hasta la construcción de viviendas. Con un enfoque en la excelencia y la responsabilidad, somos la elección confiable para tus necesidades empresariales." />
-    <meta name="keywords" content="seguridad privada, seguridad, finanzas, metales preciosos, oro, metales, hierro, viviendas, mineria, real estate,  petroleo, gas, inversion, inversiones, industrial, industria, proteccion, gestion financiera, diesel, propiedades, escoltas" />
-    <meta property="og:title" content="Larkin Baumann Holding" />
-    <meta property="og:description" content="Descubre Larkin Baumann Holding, empresa líder en diversas industrias a nivel global desde 1997. Nuestra holding se especializa en la creación y gestión de empresas en sectores que van desde la seguridad privada hasta la construcción de viviendas. Con un enfoque en la excelencia y la responsabilidad, somos la elección confiable para tus necesidades empresariales." />
+    <meta name="description" content="Descubre Larkin Baumann Private Security, líder en protección ejecutiva y servicios de seguridad desde 1997. Ofrecemos transporte seguro, vehículos blindados, auditoría forense, respuesta a emergencias e investigaciones de antecedentes. Con un enfoque en la excelencia y la responsabilidad, somos tu elección confiable en seguridad privada." />
+    <meta name="keywords" content="seguridad privada, seguridad, escoltas, blindaje, protección, emergencia, investigación, auditoria, ejecutivo" />
+    <meta property="og:title" content="Larkin Baumann Security" />
+    <meta property="og:description" content="Descubre Larkin Baumann Private Security, líder en protección ejecutiva y servicios de seguridad desde 1997. Ofrecemos transporte seguro, vehículos blindados, auditoría forense, respuesta a emergencias e investigaciones de antecedentes. Con un enfoque en la excelencia y la responsabilidad, somos tu elección confiable en seguridad privada." />
     <meta property="og:image" content="/assets/ogimage.jpg" />
-    <meta property="og:url" content="https://www.lbholding.com" />
+    <meta property="og:url" content="https://www.lbsecurity.com" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="/assets/ogimage.jpg" />
     <link rel="icon" href="/assets/favicon.ico" />
