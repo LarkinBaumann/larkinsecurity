@@ -45,7 +45,7 @@ const buttonVariants = {
           animate="visible"
           transition={{ duration: 0.5 }}
         >
-          {traduccion.heroServicios.titulo} <span className='tituloAcerca1 '>{traduccion.heroServicios.accent}</span> y <span className='tituloAcerca2'>{traduccion.heroServicios.accent2}</span>
+          {traduccion.heroServicios.titulo} <span className='tituloAcerca1 '>{traduccion.heroServicios.accent}</span> {traduccion.heroServicios.aux} <span className='tituloAcerca2'>{traduccion.heroServicios.accent2}</span>
         </motion.h2>
        {/*  <motion.div
           variants={buttonVariants}
