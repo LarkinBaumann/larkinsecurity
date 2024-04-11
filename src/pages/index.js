@@ -26,7 +26,7 @@ export default function Home() {
     <meta property="og:url" content="https://www.lbsecurity.com" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="/assets/ogimage.jpg" />
-    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
   </Head>
         <main className="w-full h-full bg-[#000206] relative overflow-hidden max-w-[1440px] min-w-sm mx-auto">
       <Hero/>
