@@ -267,18 +267,7 @@ function Contacto() {
 
       </div>
       <div className='w-[90%] flex flex-row justify-center items-center gap-[14px]'>
-      <a
-              href="https://weibo.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
       
-      <ContactCard
-        icono={'/assets/icons/weibo.svg'}
-        titulo={'Weibo'}
-        parrafo={"+52 55 1689 1448"}
-        />
-        </a>
         <a href="tel:+525516891448">
 
         <ContactCard

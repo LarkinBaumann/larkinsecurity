@@ -195,15 +195,7 @@ function Footer() {
           </div>
         </div>
         <div className="hidden lg:flex flex-row ">
-          <div className="w-[227px] h-[203px]">
-            <Image
-              src="/images/wechatFooter.png"
-              alt="logo"
-              width={1000}
-              height={1000}
-              className="w-full h-full"
-            />
-          </div>
+          
           <div className="w-[227px] h-[203px]">
             <Image
               src="/assets/WeChatQr.jpg"
